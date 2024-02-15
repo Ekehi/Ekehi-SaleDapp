@@ -11,7 +11,7 @@ export default function Menu()
                 className="px-2 sm:px-4 py-2.5 bg-gradient-to-b from-neutral-900 to-neutral-800 fixed w-full z-20 top-0 left-0 border-b border-neutral-200 border-neutral-600"
             >
                 <Navbar.Brand href="#">
-                    <img src="/images/logo.png" className="mr-3 h-6 sm:h-9" alt="Presale Example" />
+                    <img src="/images/logo.png" className="mr-3 h-6 sm:h-9" alt="Ekehi Presale" />
                 </Navbar.Brand>
                 <div className="flex md:order-2">
                     <a href="#section4">
@@ -36,12 +36,12 @@ export default function Menu()
                     <Navbar.Link
                         className="uppercase block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0 md:hover:text-white text-gray-400 hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
                         href="#section3">
-                        Section3
+                        Whitepaper
                     </Navbar.Link>
                     <Navbar.Link
                         className="uppercase block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0 md:hover:text-white text-gray-400 hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
                         href="#section4">
-                        Section4
+                        Presales
                     </Navbar.Link>
                     <Navbar.Link
                         className="uppercase block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0 md:hover:text-white text-gray-400 hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
@@ -56,7 +56,7 @@ export default function Menu()
                     <Navbar.Link
                         className="uppercase block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0 md:hover:text-white text-gray-400 hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
                         href="#section7">
-                        Section7
+                        Tokenomics
                     </Navbar.Link>
                     <Navbar.Link
                         className="uppercase block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0 md:hover:text-white text-gray-400 hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
@@ -66,7 +66,7 @@ export default function Menu()
                     <Navbar.Link
                         className="uppercase block py-2 pr-4 pl-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-red-700 md:p-0 md:hover:text-white text-gray-400 hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-gray-700"
                         href="#section9">
-                        Section9
+                        Roadmap
                     </Navbar.Link>
                 </Navbar.Collapse>
             </Navbar>

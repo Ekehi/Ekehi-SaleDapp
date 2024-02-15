@@ -19,13 +19,10 @@ export default function Footer()
                 </div>
                 <div className="grid grid-flow-row auto-rows-min sm:grid-flow-col justify-around gap-30 py-8 px-6">
                     <div className="w-2/3">
-                        <h2 className="mb-6 text-lg font-semibold uppercase text-gray-400">About Example</h2>
+                        <h2 className="mb-6 text-lg font-semibold uppercase text-gray-400">About</h2>
                         <p className="mb-6">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus neque sit amet <br />
-                            ante iaculis ultricies. Phasellus justo eros, scelerisque ut mi quis, sollicitudin ornare purus. <br />
-                            Proin aliquet eleifend elit vitae pulvinar. Aliquam laoreet justo ac tellus dapibus, eget varius erat<br />
-                            blandit. Curabitur consequat a elit sagittis posuere. Vivamus vehicula rhoncus odio, eget sodales nisl <br />
-                            viverra sed. In sit amet mollis dolor.
+                        EKEHI is a revolutionary cryptocurrency project focused on promoting sustainability and environmental stewardship through innovative blockchain technology and a strong commitment to community governance. <br />
+                        At the core of the EKEHI ecosystem is the EKEHI token, designed to be a leader in sustainable cryptocurrency. The project aims to be carbon negative, offsetting more carbon emissions than it generates, and supporting initiatives that reduce greenhouse gas emissions. EKEHI also offers an innovative staking mechanism, enabling users to earn rewards by holding and staking their tokens, and a decentralized governance model that empowers the community to participate in decision-making and shape the direction of the project.
                         </p>
                     </div>
                     <div>
