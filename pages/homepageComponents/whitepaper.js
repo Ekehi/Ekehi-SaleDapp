@@ -24,14 +24,12 @@ export default function Section3()
                             />
                         </h4>
                         <p className="text-white mb-10">
-                        EKEHI is dedicated to promoting education and awareness around
-environmental issues and collaborating with businesses, organizations, and individuals who share its vision.
-Through its unique features and commitment to making a positive impact, EKEHI is poised to become a trailblazer in the world of cryptocurrency and a driving force for a more sustainable future.
+                        EKEHI is dedicated to promote education and awareness around environmental issues and collaboration with users who share its vision
                         </p>
                         <a href="/whitepaper/whitepaper.pdf"
                             target="_blank"
                             className="bg-slate-300 text-black hover:bg-red-600 active:bg-red-900 font-bold uppercase text-base px-8 py-3 rounded-[24px] shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
-                            <span>Download Our Whitepaper <FontAwesomeIcon icon={faCircleDown} className="ml-2" /></span>
+                            <span>Download Whitepaper <FontAwesomeIcon icon={faCircleDown} className="ml-2" /></span>
                         </a>
                     </div>
                 </div>

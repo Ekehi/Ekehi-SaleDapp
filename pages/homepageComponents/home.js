@@ -21,8 +21,8 @@ export default function HomeSection()
                         <strong>✓</strong> Phasellus justo eros. <strong>✓</strong> scelerisque ut mi quis. <strong>✓</strong> sollicitudin ornare purus. 
                         <strong>✓</strong> Proin aliquet.</p>
                     <br />
-                    <a href="https://t.me/R3D4NG3L" target="_blank" className="bg-neutral-900 text-white hover:bg-red-600 active:bg-red-900 font-bold uppercase text-base px-8 py-3 rounded-[24px] shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
-                        <span>Aliquam laoreet justo <FontAwesomeIcon icon={faTelegram} className="ml-2"/></span>
+                    <a href="https://t.me/EkehiOfficial" target="_blank" className="bg-neutral-900 text-white hover:bg-red-600 active:bg-red-900 font-bold uppercase text-base px-8 py-3 rounded-[24px] shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+                        <span>Join Telegram <FontAwesomeIcon icon={faTelegram} className="ml-2"/></span>
                     </a>
                 </div>
             </section>

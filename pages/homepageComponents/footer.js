@@ -22,7 +22,6 @@ export default function Footer()
                         <h2 className="mb-6 text-lg font-semibold uppercase text-gray-400">About</h2>
                         <p className="mb-6">
                         EKEHI is a revolutionary cryptocurrency project focused on promoting sustainability and environmental stewardship through innovative blockchain technology and a strong commitment to community governance. <br />
-                        At the core of the EKEHI ecosystem is the EKEHI token, designed to be a leader in sustainable cryptocurrency. The project aims to be carbon negative, offsetting more carbon emissions than it generates, and supporting initiatives that reduce greenhouse gas emissions. EKEHI also offers an innovative staking mechanism, enabling users to earn rewards by holding and staking their tokens, and a decentralized governance model that empowers the community to participate in decision-making and shape the direction of the project.
                         </p>
                     </div>
                     <div>
