@@ -7,7 +7,7 @@ import Section5 from "./homepageComponents/section5.js";
 import Section6 from "./homepageComponents/section6.js";
 import Section7 from "./homepageComponents/section7.js";
 import Section8 from "./homepageComponents/section8.js";
-import Section9 from "./homepageComponents/section9.js";
+import Section9 from "./homepageComponents/roadmap.js";
 import Footer from "./homepageComponents/footer.js";
 
 /*

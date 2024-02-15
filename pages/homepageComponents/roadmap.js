@@ -7,11 +7,11 @@ export default function Section9()
             <section id="section9" className="flex place-items-center justify-around min-h-screen h-fit bg-fixed bg-center bg-cover bg-[url('/images/bg/15.jpg')]">
                 <div className="text-center">
                     <div className="box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md bg-gradient-to-r from-neutral-900 rounded-lg">
-                        <h2 className="text-white font-bold">Aliquam consectetur dapibus convallis.</h2>
+                        <h2 className="text-white font-bold">Join us on this project</h2>
                         <h4 className="lead text-white font-bold">
                             <Typewriter
                                 options={{
-                                    strings: ["NULLAM"],
+                                    strings: ["ROADMAP"],
                                     autoStart: true,
                                     loop: true,
                                     pauseFor: 600000
@@ -23,34 +23,50 @@ export default function Section9()
                                 <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time className="text-white text-lg font-semibold text-gray-900 dark:text-white">
-                                        4th Quarter 202X
+                                        Q4 2023 - Q1 2024
                                     </time>
                                     <p className="text-white mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                                        Suspendisse dignissim felis eget varius rhoncus.<br/>
-                                        Pellentesque posuere eleifend lobortis.<br/>
-                                        Pellentesque interdum euismod rutrum. <br/>
-                                        Donec suscipit felis ut justo aliquet, <br/>
-                                        eget egestas mauris imperdiet.
+                                        Development and launch of the EKEHI token presale, <br/>
+                                        including smartcontract creation and token sale. <br/>
+                                        EKEHI will also be listed on prominent tracking platform to establish its presence externally.
                                     </p>
                                 </li>
                                 <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time className="text-white text-lg font-semibold text-gray-900 dark:text-white">
-                                        1st Quarter 202X
+                                        Q2 2024
                                     </time>
                                     <p className="text-white mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                                        Quisque consectetur justo in pellentesque scelerisque. <br/>
-                                        Vestibulum molestie accumsan tortor, <br/>
-                                        vel luctus massa pellentesque id
+                                        Focus on establishing collaboration with well-known companies within and outside blockchain sector. <br/>
+                                        this will help spread awareness about the project among existing cryptocurrency users and those new to the blockchain space.
                                     </p>
                                 </li>
                                 <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time className="text-white text-lg font-semibold text-gray-900 dark:text-white">
-                                        2nd Quarter 202X
+                                        Q3 2024
                                     </time>
                                     <p className="text-white mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                                        Coming soon
+                                        Active development and testing of the EKEHICHAIN and EKEHI swap testnets to ensure efficiency and functionality.
+                                    </p>
+                                </li>
+                                <li className="mb-10 ml-4">
+                                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                    <time className="text-white text-lg font-semibold text-gray-900 dark:text-white">
+                                        Q4 2024
+                                    </time>
+                                    <p className="text-white mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                                        Listing of EKEHI token no several centralized exchanges to begin trading activities.
+                                    </p>
+                                </li>
+                                <li className="mb-10 ml-4">
+                                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                    <time className="text-white text-lg font-semibold text-gray-900 dark:text-white">
+                                        Q1 2025
+                                    </time>
+                                    <p className="text-white mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                                        Official launch of EKEHICHAIN and swap for full functionality, <br/>
+                                        representing a major milestone for the project.
                                     </p>
                                 </li>
                             </ol>
