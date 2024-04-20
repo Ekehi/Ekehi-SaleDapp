@@ -316,7 +316,7 @@ export default function PresaleManager()
                         <div className="row">
                             <div className="col-lg-4">
                                 <div className="chooseUsContent home_page3">
-                                    <h3 className="magenta normal">Purchase Praiza Pre-Sale Tokens:</h3>
+                                    <h3 className="magenta normal">Purchase Ekehi Pre-Sale Tokens:</h3>
                                     <form
                                         onSubmit={(e) =>
                                         {
@@ -326,10 +326,10 @@ export default function PresaleManager()
                                             else
                                                 usdtAllowanceWrite?.()
                                         }}>
-                                        <label for="tokenId">Amount of Praiza Tokens</label>
+                                        <label for="tokenId">Amount of Ekehi Tokens</label>
                                         <input
                                             type="number"
-                                            placeholder="Amount of Praiza Tokens"
+                                            placeholder="Amount of EKH Tokens"
                                             className="exchange__textBox"
                                             value={tokens}
                                             onChange={(e) => setTokens(e.target.value)}
@@ -337,16 +337,16 @@ export default function PresaleManager()
                                         <div>USDT equivalent: {usdt.toFixed(2)}</div>
                                         <button disabled={waitForTransactionIsLoading || usdtAllowanceIsLoading}>
                                             {
-                                                waitForTransactionIsLoading ? 'Investment in progress...'
+                                                waitForTransactionIsLoading ? 'Transaction in progress...'
                                                     : waitForTransactionUsdtAllowanceIsLoading ? 'Awaiting USDT Allowance...'
-                                                        : 'Buy Praiza'
+                                                        : 'Buy EKH'
                                             }
                                         </button>
                                         {waitForTransactionIsSuccess && (
                                             <div>
-                                                Successfully invested in Praiza! Congratulations!
+                                                Successfully Purchased Ekehi Token! Congratulations!
                                                 <div>
-                                                    <a href={`https://etherscan.io/tx/${usdtAllowanceData?.hash}`}>Etherscan</a>
+                                                    <a href={`https://bscscan.com/tx/${usdtAllowanceData?.hash}`}>Bscscan</a>
                                                 </div>
                                             </div>
                                         )}
