@@ -53,13 +53,10 @@ export default function SeedSale()
                 return (
                     <>
                         <div id="toast-simple" class="flex justify-center items-center p-4 space-x-4 w-full max-w-xs text-white bg-neutral-800 rounded-lg divide-x divide-gray-200 shadow space-x" role="alert">
-                            <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" version="1.0" width="240.000000pt" height="240.000000pt" viewBox="0 0 240.000000 240.000000" preserveAspectRatio="xMidYMid meet">
-                                <g transform="translate(0.000000,240.000000) scale(0.100000,-0.100000)" fill="#FFFFFF" stroke="none">
-                                    <path d="M320 1225 l0 -895 95 0 95 0 0 -117 0 -118 118 118 117 117 683 0 682 0 0 895 0 895 -895 0 -895 0 0 -895z m1195 476 c134 -13 227 -72 280 -177 27 -52 30 -69 30 -149 0 -75 -4 -98 -24 -140 -32 -63 -93 -124 -156 -156 -48 -23 -60 -24 -274 -27 l-224 -3 -169 -165 -169 -164 -106 0 c-80 0 -104 3 -101 13 3 6 81 229 174 494 l169 483 245 -1 c135 0 281 -4 325 -8z" />
-                                    <path d="M1047 1551 c-3 -9 -48 -137 -101 -286 -53 -148 -96 -277 -96 -285 0 -8 46 31 103 87 58 58 118 109 140 118 30 12 78 15 247 15 235 -1 259 4 307 67 20 26 28 50 31 93 5 72 -16 121 -70 161 -48 34 -76 37 -350 42 -180 3 -207 1 -211 -12z" />
-                                </g>
-                            </svg>
-                            <div class="pl-4 text-sm font-normal">You own already {new Intl.NumberFormat().format(this.totalAmount)} Token<br />
+                             <img 
+                 src="/images/EKEHI-mini.png" className="w-8 h-8" alt="Ekehi" />
+                           
+                            <div class="pl-4 text-sm font-normal">You own already {new Intl.NumberFormat().format(this.totalAmount)} <span className="tcolor">ekh</span>  <br />
                                 You're still on time to buy more!</div>
                         </div>
                     </>
@@ -195,7 +192,7 @@ export default function SeedSale()
             setDisplayPresaleData(
                 <>
                     <div className="w-full bg-gray-200 rounded-full dark:bg-gray-700 mb-3">
-                        <div className="bg-red-600 text-xs font-medium font-bold text-neutral-900 text-center p-0.5 leading-none rounded-full"
+                        <div className="default-color text-xs font-medium  text-neutral-900 text-center p-0.5 leading-none rounded-full"
                             style={{ width: presaleDataParsed?.salePercentageParsed }}>
                             {presaleDataParsed?.salePercentageParsed}
                         </div>
@@ -222,15 +219,11 @@ export default function SeedSale()
             setDisplayUserVestingData(userVesting.HtmlOutput);
             setBuyData(<>
                 <div className="flex items-center justify-center mb-6 mt-5">
-                    <svg className="animate-bounce w-16 h-16" xmlns="http://www.w3.org/2000/svg" version="1.0" width="240.000000pt" height="240.000000pt" viewBox="0 0 240.000000 240.000000" preserveAspectRatio="xMidYMid meet">
-                        <g transform="translate(0.000000,240.000000) scale(0.100000,-0.100000)" fill="#FFFFFF" stroke="none">
-                            <path d="M320 1225 l0 -895 95 0 95 0 0 -117 0 -118 118 118 117 117 683 0 682 0 0 895 0 895 -895 0 -895 0 0 -895z m1195 476 c134 -13 227 -72 280 -177 27 -52 30 -69 30 -149 0 -75 -4 -98 -24 -140 -32 -63 -93 -124 -156 -156 -48 -23 -60 -24 -274 -27 l-224 -3 -169 -165 -169 -164 -106 0 c-80 0 -104 3 -101 13 3 6 81 229 174 494 l169 483 245 -1 c135 0 281 -4 325 -8z" />
-                            <path d="M1047 1551 c-3 -9 -48 -137 -101 -286 -53 -148 -96 -277 -96 -285 0 -8 46 31 103 87 58 58 118 109 140 118 30 12 78 15 247 15 235 -1 259 4 307 67 20 26 28 50 31 93 5 72 -16 121 -70 161 -48 34 -76 37 -350 42 -180 3 -207 1 -211 -12z" />
-                        </g>
-                    </svg>
+                 <img 
+                 src="/images/EKEHI-mini.png" className="animate-bounce w-16 h-16" alt="Ekehi" />
                 </div>
                 <div className="flex items-center justify-center mb-6 mt-5">
-                    <BuyWithUsdtModal />
+                    <BuyWithUsdtModal/>
                 </div>
             </>);
         }
@@ -241,14 +234,14 @@ export default function SeedSale()
             <div className="text-center">
                 <div className="box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md bg-neutral-900 rounded-lg">
                     <h7 className="text-white font-bold">
-                        ✅ 1st Dec 2022 to sell out (or 31 Jan 2023)<br />
-                        Seed Sale
+                        ✅ 1st May 2024<br />
+                        Presale
                     </h7>
                     <h4 className="text-white font-bold text-4xl">
-                        1 Token = {presaleDataParsed?.price?.toFixed(4)}$
+                        1 EKH = {presaleDataParsed?.price?.toFixed(4)}$
                     </h4>
                     <p className="text-white mb-4">
-                        Hurry and buy before seed sale sells out
+                        Hurry and buy before presale ends
                     </p>
                     {displayPresaleData}
                     <div className="flex place-items-center justify-around">
