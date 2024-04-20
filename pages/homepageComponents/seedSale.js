@@ -248,7 +248,7 @@ export default function SeedSale()
                         {displayUserVestingData}
                     </div>
                     {displayBuyData}
-                    <div className="flex place-items-center justify-around">
+                    <div className="flex place-items-center justify-around default-color">
                         <ConnectButton />
                     </div>
                 </div>
