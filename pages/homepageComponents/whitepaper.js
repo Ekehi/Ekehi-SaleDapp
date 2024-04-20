@@ -10,7 +10,7 @@ export default function Section3()
 {
     return (
         <>
-            <section id="section3" className="flex place-items-center justify-around min-h-screen h-fit bg-fixed bg-center ">
+            <section id="section3" className="flex place-items-center justify-around min-h-screen h-fit bg-fixed bg-center bg-black">
                 <div className="text-center">
                     <div style={{alignItems:"center"}}
                     className="flex flex-col box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md bg-gradient-to-r rounded-lg justify-evenly">
