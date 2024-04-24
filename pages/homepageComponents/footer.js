@@ -33,11 +33,11 @@ export default function Footer()
                         <h2 className="mb-6 text-lg font-semibold uppercase tcolor">Company contacts</h2>
                         <ul className="text-white">
                             <li className="mb-4">
-                                <a href="#" className="hover:underline"><FontAwesomeIcon icon={faTelegram} className="mr-2 hover:text-blue-500" /> Telegram</a>
+                                <a href="https://t.me/ekehiOfficial" className="hover:underline"><FontAwesomeIcon icon={faTelegram} className="mr-2 hover:text-blue-500" /> Telegram</a>
                             </li>
                             
                             <li className="mb-4">
-                                <a href="#" className="hover:underline"><FontAwesomeIcon icon={faTwitter} className="mr-2 hover:text-blue-500" /> Twitter</a>
+                                <a href="https://twitter.com/EkehiOfficial" className="hover:underline"><FontAwesomeIcon icon={faTwitter} className="mr-2 hover:text-blue-500" /> Twitter</a>
                             </li>
                            
                         </ul>
@@ -53,7 +53,7 @@ export default function Footer()
                             <span className="sr-only">Telegram group</span>
                         </a>
                        
-                        <a href="https://twitter.com/ekehiofficial" className="text-white hover:text-blue-500">
+                        <a href="https://twitter.com/EkehiOfficial" className="text-white hover:text-blue-500">
                             <FontAwesomeIcon icon={faTwitter} className="mr-2" />
                             <span className="sr-only">Twitter page</span>
                         </a>
