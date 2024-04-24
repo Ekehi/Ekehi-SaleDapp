@@ -9,14 +9,14 @@
 [02] NORMALIZATION CSS
 =========================================================================*/
 htm,
-body {
+body,html {
   color: #999999;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 36px;
-  max-width: 100%;
-  overflow-x: hidden;
+
+  width: fit-content;
 }
 
 ul,
@@ -142,7 +142,6 @@ blockquote p {
 
 .tokenomicsDiv {
   height: 30vh;
-  width: 70vw;
   position: relative;
 }
 
@@ -453,4 +452,65 @@ blockquote p {
     max-height: 300px;
     padding: 2px;
 }
+}
+
+.font14{
+  font-size: 0.875rem;
+}
+
+
+/*------------------- COUNTDOWN TIMER -----------------------*/
+
+
+.tcontainer {
+  position: relative;
+  border-style: solid;
+  border: 5px;
+  
+}
+
+.t{
+  position: relative;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  color: white; /* Default text color for labels */
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 2px #ffcc67;
+}
+
+.countdown-timer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: white; /* Default text color for labels */
+  margin-top: 20px;
+  
+}
+
+.time-segment {
+  text-align: center;
+  margin: 0 10px; /* Adjusts space between segments */
+}
+
+.time-value {
+  color: gold; /* Gold color for time values */
+  font-size: 2em; /* Larger font size for emphasis */
+}
+
+.time-label {
+  display: block; /* Ensures label is on a new line */
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  padding: 5px; /* Padding around the label text */
+  border-radius: 5px; /* Rounded corners for the label background */
+  margin-top: 5px; /* Space between the time value and label */
+}
+
+/* Separator for time values */
+.time-segment:not(:last-child):after {
+  margin-left: 10px; /* Space after the separator */
 }

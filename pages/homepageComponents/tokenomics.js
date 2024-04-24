@@ -42,22 +42,27 @@ const data = {
     ],
 };
 
-export default function Section7()
+export default function Tokenomics()
 {
     return (
         <>
-            <section id="section7" className="flex place-items-center justify-around min-h-screen h-fit bg-fixed bg-center bg-cover bg-black">
+            <section id="section7" className="flex place-items-center justify-around h-fit bg-fixed bg-center bg-cover bg-[url('/images/bg/23.ojpg')]">
                 <div className="text-center">
                     <div className="box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md bg-gradient-to-r from-neutral-900 rounded-lg">
                         <h2 className="text-white font-bold">Tokenomics</h2>
-                        <h4 className="lead text-white font-bold">
+                        <h4 className="lead text-white  font-bold">
                             <Typewriter
                                 options={{
                                     strings: ["Our Token Distribution"],
                                     autoStart: true,
                                     loop: true,
-                                    pauseFor: 600000
+                                    pauseFor: 600000,
+                                    cursor: '_',
+                                    styles:{
+                                        textColor:"#ffa000"
+                                    }
                                 }}
+                                
                             />
                         </h4>
                         {/* <p className="text-white mb-10">

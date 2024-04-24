@@ -1,17 +1,9 @@
-// Import the FontAwesomeIcon component
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-faTelegram
-} from "@fortawesome/free-brands-svg-icons";
-import { BsArrowRight } from "react-icons/bs";
-
-
 // Homepage Home Section
 export default function HomeSection() {
     return (
         <>
             {/* PARALLAX ONE START */}
-            <section id="home" className="flex items-center justify-center h-fit min-h-screen bg-fixed bg-center bg-cover bg-black">
+            <section id="home" className="flex items-center justify-center h-fit min-h-screen bg-fixed bg-center bg-cover bg-[url('/images/bg/16.ojpg')]">
                 <div className="container mx-auto text-center mt-[100px] md:mt-0 pad">
                     <h2 className="lead text-white pad">
                         <strong className="tcolor">Ekehi:</strong> Redefining Cryptocurrency

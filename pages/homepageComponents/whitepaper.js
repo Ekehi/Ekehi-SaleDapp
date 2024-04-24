@@ -10,7 +10,7 @@ export default function Section3()
 {
     return (
         <>
-            <section id="section3" className="flex place-items-center justify-around min-h-screen h-fit bg-fixed bg-center bg-black">
+            <section id="section3" className="flex place-items-center justify-around h-fit bg-fixed bg-center ">
                 <div className="text-center">
                     <div style={{alignItems:"center"}}
                     className="flex flex-col box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md bg-gradient-to-r rounded-lg justify-evenly">
@@ -24,7 +24,7 @@ export default function Section3()
                                 }}
                             />
                         </h4>
-                        <p className="text-white mb-10 w-1/2 text-center mt-6">
+                        <p className="text-white mb-10 w-fit text-center mt-6">
                         EKEHI is a transformational cryptocurrency project focused on growth
                           Sustainability and environmental management through innovative 
                           blockchain technology and a strong commitment to local governance.

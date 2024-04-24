@@ -2,34 +2,27 @@ import Menu from "./homepageComponents/menu.js";
 import HomeSection from "./homepageComponents/home.js";
 import Section2 from "./homepageComponents/section2.js";
 import Section3 from "./homepageComponents/whitepaper.js";
-import Section4 from "./homepageComponents/sales.js";
-import Section5 from "./homepageComponents/section5.js";
-import Section7 from "./homepageComponents/tokenomics.js";
-import Section9 from "./homepageComponents/roadmap.js";
+//import Section4 from "./homepageComponents/sales.js";
+import Ecosystem from "./homepageComponents/ecosystem.js";
+import Tokenomics from "./homepageComponents/tokenomics.js";
+import Roadmap from "./homepageComponents/roadmap.js";
 import Footer from "./homepageComponents/footer.js";
-
-/*
-
-        
-        
-
-*/
 
 export default function Home()
 {
   return (
-    <>
+    <div className="v_dark w-fit ">
       <Menu />
-      <main>
+      <main  className="w-fit">
         <HomeSection />
         <Section2 />
         <Section3 />
-        <Section4 />
-        <Section5 />        
-        <Section7 />
-        <Section9 />
+        {/* <Section4 /> */}
+        <Ecosystem />     
+        <Tokenomics />
+        <Roadmap />
         <Footer />
       </main>
-    </>
+    </div>
   )
 }

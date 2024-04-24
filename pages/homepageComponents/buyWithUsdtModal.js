@@ -277,7 +277,7 @@ const BuyWithUsdtModal = () =>
     {
       setUsdtInputBoxClassName("rounded-none rounded-l-lg border bg-gray-300 border border-gray-300 text-gray-900 block cursor-not-allowed flex-1 min-w-0 w-full text-sm p-2.5 placeholder-gray-400 focus:ring-red-500");
       setUsdtInputBoxError("");
-      setConvertToUsdtButtonClass("bg-red-600 text-white hover:text-white hover:bg-slate-300 active:bg-red-900 font-bold uppercase text-base px-8 py-3 rounded-[24px] shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150");
+      setConvertToUsdtButtonClass("default-color text-white hover:text-white hover:bg-slate-300 active:bg-red-900 font-bold uppercase text-base px-8 py-3 rounded-[24px] shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150");
       setConvertToUsdtDisabled(false);
     }
     else
@@ -286,7 +286,7 @@ const BuyWithUsdtModal = () =>
       setUsdtInputBoxError(
         <>
           <div className="flex">
-            <p class="mt-2 text-sm text-red-600"><span class="font-medium">Oh, snapp!</span> Insufficient USDT Balance.<br />
+            <p class="mt-2 text-sm tcolor"><span class="font-medium">Oh, sorry!</span> you have insufficient USDT balance.<br />
               Current balance: <span class="font-medium">{usdtBalanceOfWalletConnected}</span> USDT</p>
           </div>
         </>
@@ -338,7 +338,7 @@ const BuyWithUsdtModal = () =>
               </svg>
               <span class="sr-only">Loading...</span>
             </div>
-            <p class="mt-2 text-sm text-green-200"> Please wait, <span class="font-medium">investment</span> in progress...</p>
+            <p class="mt-2 text-sm text-green-200"> Please wait, <span class="font-medium">transaction</span> in progress...</p>
           </div>
         </>);
     }
@@ -348,7 +348,7 @@ const BuyWithUsdtModal = () =>
       setConvertToUsdtInProcessText(
         <>
           <div className="flex items-center justify-center mb-5">
-            <p class="mt-2 text-sm text-green-200"><span class="font-medium">Congratulations!</span> You're investment was successful. <br />
+            <p class="mt-2 text-sm text-green-200"><span class="font-medium">Congratulations!</span> Your purchase was successful. <br />
               <span class="font-medium">Welcome on board!</span></p>
           </div>
         </>);
@@ -368,7 +368,7 @@ const BuyWithUsdtModal = () =>
   return (
     <>
       <button
-        className="bg-red-600 text-white hover:text-white hover:bg-slate-300 active:bg-red-900 font-bold uppercase text-base px-8 py-3 rounded-[24px] shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+        className="default-color text-white hover:text-white hover:bg-slate-300 active:bg-red-900 font-bold uppercase text-base px-8 py-3 rounded-[24px] shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
         type="button"
         onClick={() => setShowModal(true)}
       >
@@ -396,20 +396,12 @@ const BuyWithUsdtModal = () =>
                   <form className="bg-neutral-800 shadow-md rounded px-8 pt-6 pb-8 w-full">
                     <div className="flex">
                       <input type="number" value={tokens} onChange={(e) => setTokens(e.target.value)} className="rounded-none rounded-l-lg bg-gray-50 border text-gray-900 focus:border-red-500 block flex-1 min-w-0 w-full text-sm border-gray-300 p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 focus:ring-red-500" />
-                      <span className="inline-flex items-center px-3 text-sm w-50 text-gray-900 bg-gray-200 rounded-r-md border border-r-0 border-gray-300">
-                        <svg className="hover:animate-ping w-8 h-8 absolute inline-flex h-full w-full rounded-full opacity-75" xmlns="http://www.w3.org/2000/svg" version="1.0" width="240.000000pt" height="240.000000pt" viewBox="0 0 240.000000 240.000000" preserveAspectRatio="xMidYMid meet">
-                          <g transform="translate(0.000000,240.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
-                            <path d="M320 1225 l0 -895 95 0 95 0 0 -112 0 -113 113 113 112 112 688 0 687 0 0 895 0 895 -895 0 -895 0 0 -895z m1195 476 c134 -13 227 -72 280 -177 27 -52 30 -69 30 -149 0 -75 -4 -98 -24 -140 -32 -63 -93 -124 -156 -156 -48 -23 -60 -24 -274 -27 l-224 -3 -169 -165 -169 -164 -106 0 c-80 0 -104 3 -101 13 3 6 81 229 174 494 l169 483 245 -1 c135 0 281 -4 325 -8z" />
-                            <path d="M1047 1551 c-3 -9 -48 -137 -101 -286 -53 -148 -96 -277 -96 -285 0 -8 46 31 103 87 58 58 118 109 140 118 30 12 78 15 247 15 235 -1 259 4 307 67 20 26 28 50 31 93 5 72 -16 121 -70 161 -48 34 -76 37 -350 42 -180 3 -207 1 -211 -12z" />
-                          </g>
-                        </svg>
-                        <svg className="relative inline-flex rounded-full h-8 w-8" xmlns="http://www.w3.org/2000/svg" version="1.0" width="240.000000pt" height="240.000000pt" viewBox="0 0 240.000000 240.000000" preserveAspectRatio="xMidYMid meet">
-                          <g transform="translate(0.000000,240.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none">
-                            <path d="M320 1225 l0 -895 95 0 95 0 0 -112 0 -113 113 113 112 112 688 0 687 0 0 895 0 895 -895 0 -895 0 0 -895z m1195 476 c134 -13 227 -72 280 -177 27 -52 30 -69 30 -149 0 -75 -4 -98 -24 -140 -32 -63 -93 -124 -156 -156 -48 -23 -60 -24 -274 -27 l-224 -3 -169 -165 -169 -164 -106 0 c-80 0 -104 3 -101 13 3 6 81 229 174 494 l169 483 245 -1 c135 0 281 -4 325 -8z" />
-                            <path d="M1047 1551 c-3 -9 -48 -137 -101 -286 -53 -148 -96 -277 -96 -285 0 -8 46 31 103 87 58 58 118 109 140 118 30 12 78 15 247 15 235 -1 259 4 307 67 20 26 28 50 31 93 5 72 -16 121 -70 161 -48 34 -76 37 -350 42 -180 3 -207 1 -211 -12z" />
-                          </g>
-                        </svg>
-                        TOKEN
+                      <span className="inline-flex items-center px-5 text-sm w-50 text-gray-900 bg-gray-200 rounded-r-md border border-r-0 border-gray-300">
+                       
+                        <img 
+                 src="/images/EKEHI-mini.png" className="relative inline-flex rounded-full h-9 w-10" alt="Ekehi" />
+                       
+                        EKH
                       </span>
                     </div>
                     <div className="flex">
@@ -419,7 +411,7 @@ const BuyWithUsdtModal = () =>
                       <span className="inline-flex items-center px-3 text-sm text-gray-900 bg-gray-200 rounded-r-md border border-r-0 border-gray-300">
                         <svg className="hover:animate-ping w-9 h-9 absolute inline-flex h-full w-full rounded-full opacity-75" xmlns="http://www.w3.org/2000/svg" width="2000" height="1750" viewBox="0 0 2000 1750"><path fill="#53ae94" d="M1632.3 0 367.7 0 0 785.98 1000 1750 2000 785.98 1632.3 0z" /><path d="M1138.88,626.12V473.58H1487.7V241.17H537.87V473.58H886.72V626C603.2,639,390,695.17,390,762.43S603.3,885.85,886.72,899v488.59H1139V898.91c283-13.06,495.75-69.17,495.75-136.38S1422,639.22,1139,626.16m0,231.37v-.13c-7.11.45-43.68,2.65-125.09,2.65-65.09,0-110.89-1.85-127-2.69v.21C636.36,846.47,449.4,802.85,449.4,750.66s187-95.75,437.44-106.86V814.11c16.41,1.13,63.33,3.9,128.09,3.9,77.79,0,116.9-3.24,124.07-3.9V643.8c250,11.13,436.53,54.79,436.53,106.8S1388.91,846.29,1139,857.42" fill="#fff" /></svg>
                         <svg className="relative inline-flex rounded-full w-9 h-9" xmlns="http://www.w3.org/2000/svg" width="2000" height="1750" viewBox="0 0 2000 1750"><path fill="#53ae94" d="M1632.3 0 367.7 0 0 785.98 1000 1750 2000 785.98 1632.3 0z" /><path d="M1138.88,626.12V473.58H1487.7V241.17H537.87V473.58H886.72V626C603.2,639,390,695.17,390,762.43S603.3,885.85,886.72,899v488.59H1139V898.91c283-13.06,495.75-69.17,495.75-136.38S1422,639.22,1139,626.16m0,231.37v-.13c-7.11.45-43.68,2.65-125.09,2.65-65.09,0-110.89-1.85-127-2.69v.21C636.36,846.47,449.4,802.85,449.4,750.66s187-95.75,437.44-106.86V814.11c16.41,1.13,63.33,3.9,128.09,3.9,77.79,0,116.9-3.24,124.07-3.9V643.8c250,11.13,436.53,54.79,436.53,106.8S1388.91,846.29,1139,857.42" fill="#fff" /></svg>
-                        USDT<span className="text-gray-200">-</span>
+                         USDT<span className="text-gray-200">-</span>
                       </span>
                     </div>
                     {usdtInputBoxError}

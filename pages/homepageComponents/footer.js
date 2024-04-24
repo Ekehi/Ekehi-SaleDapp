@@ -11,10 +11,10 @@ export default function Footer()
 {
     return (
         <>
-            <footer id="footer" className=" pt-8 bg-black">
-                <div className="flex place-items-center justify-left ml-6 bg-black">
+            <footer id="footer" className=" pt-8">
+                <div className="flex place-items-center justify-left ml-6">
                     <a href="#" className="flex items-center">
-                        <img src="/images/logo.png" className="ml-3 h-6 sm:h-9" alt="Ekehi" />
+                        <img src="/images/logo.png" className="ml-3 h-6 sm:h-9" alt="Presale Example" />
                     </a>
                 </div>
                 <div className="grid justify-items-center justify-center grid-flow-row auto-rows-min sm:grid-flow-col  gap-30 py-8 px-6">
@@ -43,11 +43,12 @@ export default function Footer()
                         </ul>
                     </div>
                 </div>
-                <div className="py-6 px-4 bg-neutral-900 md:flex md:items-center md:justify-between ">
-                    <span className="text-sm text-white sm:text-center align-bottom">&copy; 2024 <a href="#">EKEHI</a>. All Rights Reserved.
+                <div className="py-1 px-4 bg-neutral-900 md:flex md:items-center md:justify-between min-w-full">
+                    <div className="flex  space-x-6 sm:justify-between md:mt-0 justify-between w-full">
+                    <span className="font14 font-thin text-white sm:text-center align-bottom">&copy; 2024 <a href="#">Ekehi</a>. All Rights Reserved.
                     </span>
-                    <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0 justify-end inline-block">
-                        <a href="https://t.me/ekehiOfficial" className="text-white hover:text-blue-500">
+                    <div>
+                    <a href="https://t.me/ekehiOfficial" className="text-white hover:text-blue-500">
                             <FontAwesomeIcon icon={faTelegram} className="mr-2" />
                             <span className="sr-only">Telegram group</span>
                         </a>
@@ -56,6 +57,9 @@ export default function Footer()
                             <FontAwesomeIcon icon={faTwitter} className="mr-2" />
                             <span className="sr-only">Twitter page</span>
                         </a>
+
+                    </div>
+                        
                        
                     </div>
                 </div>

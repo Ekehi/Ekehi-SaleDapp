@@ -1,10 +1,10 @@
 import Typewriter from 'typewriter-effect';
 
-export default function Section9()
+export default function Roadmap()
 {
     return (
         <>
-            <section id="section9" className="flex place-items-center justify-around min-h-screen h-fit bg-fixed bg-center bg-cover bg-black">
+            <section id="section9" className="flex place-items-center justify-around h-fit bg-fixed bg-center bg-cover bg-[url('/images/bg/15.ojpg')]">
                 <div className="text-center">
                     <div className="box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md bg-gradient-to-r from-neutral-900 rounded-lg">
                         <h2 className="text-white font-bold">Join us on this project</h2>
@@ -22,7 +22,7 @@ export default function Section9()
                             <ol className="relative border-l border-gray-200 dark:border-gray-700">
                                 <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 default-color rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                                    <time className="text-white text-lg font-semibold  dark:text-white">
+                                    <time className="tcolor text-lg font-semibold  dark:text-white">
                                         Q1 2024
                                     </time>
                                     <p className="text-white mb-4 text-base font-normal  dark:text-gray-400">
@@ -33,7 +33,7 @@ export default function Section9()
                                 </li>
                                 <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 default-color rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                                    <time className="text-white text-lg font-semibold  dark:text-white">
+                                    <time className="tcolor text-lg font-semibold  dark:text-white">
                                         Q2 2024
                                     </time>
                                     <p className="text-white mb-4 text-base font-normal  dark:text-gray-400">
@@ -43,7 +43,7 @@ export default function Section9()
                                 </li>
                                 <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 default-color rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                                    <time className="text-white text-lg font-semibold  dark:text-white">
+                                    <time className="tcolor text-lg font-semibold  dark:text-white">
                                         Q3 2024
                                     </time>
                                     <p className="text-white mb-4 text-base font-normal dark:text-gray-400">
@@ -52,7 +52,7 @@ export default function Section9()
                                 </li>
                                 <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 default-color rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                                    <time className="text-white text-lg font-semibold  dark:text-white">
+                                    <time className="tcolor text-lg font-semibold  dark:text-white">
                                         Q4 2024
                                     </time>
                                     <p className="text-white mb-4 text-base font-normal  dark:text-gray-400">
@@ -61,7 +61,7 @@ export default function Section9()
                                 </li>
                                 <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 default-color rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                                    <time className="text-white text-lg font-semibold  dark:text-white">
+                                    <time className="tcolor text-lg font-semibold  dark:text-white">
                                         Q1 2025
                                     </time>
                                     <p className="text-white mb-4 text-base font-normal  dark:text-gray-400">

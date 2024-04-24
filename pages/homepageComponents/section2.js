@@ -9,7 +9,7 @@ export default function Section2() {
     return (
         <>
             {/* PARALLAX TWO START */}
-            <section id="section2" className="flex items-center justify-center h-fit bg-fixed bg-center bg-cover bg-black">
+            <section id="section2" className="flex items-center justify-center h-fit bg-fixed bg-center bg-cover bg-[url('/images/bg/12.ojpg')]">
                 <div className="text-center">
                     <div className="box-cont h-fit w-fit mt-[10%] px-14 mb-10 py-8 shadow-md bg-gradient-to-r from-neutral-900 rounded-lg">
                         <h5 className="uppercase tcolor font-bold">About Ekehi</h5>
@@ -22,6 +22,12 @@ export default function Section2() {
                             EKEHI is a cryptocurrency project with a unique vision - to not only facilitate digital transactions, but also to drive financial empowerment and community growth. This innovative project aims to create a future where financial transactions are intertwined with social impact, creating a positive cycle of growth for both individuals and communities.
                         </p>
                         <div className="flex items-center justify-center mb-6 mt-5">
+                            {/*                         <iframe className="md:w-[350px] md:h-[350px] h-[250px] w-[250px]"
+                            src="https://www.youtube.com/embed/L07fMeLWToE?rel=0"
+                            title="PRAIZA FINANCE - INVEST IN REAL FINANCE IN DEFI"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen></iframe> */}
 
                         </div>
                         <a href="https://t.me/R3D4NG3L"
