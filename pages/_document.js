@@ -12,12 +12,12 @@ class WebDocument extends Document
                 <meta name="keywords" content="Crypto, DeFi, Ekehi, Blockchain, Digital Currency" />
                 <meta property="og:title" content="Ekehi - Redefining Cryptocurrency for a Sustainable and Inclusive Future" />
                 <meta property="og:description" content="The EKEHI token is the native cryptocurrency of the ecosystem, designed to be a leader in sustainable cryptocurrency. It is environmentally friendly, energy-efficient, and supports global sustainability goals." />
-                <meta property="og:image" content="images/HEADER.jpg" />
+                <meta property="og:image" content="https://ekehi.network/images/HEADER.jpg" />
                 <meta property="og:url" content="https://ekehi.network" />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="Ekehi - Redefining Cryptocurrency for a Sustainable and Inclusive Future" />
                 <meta name="twitter:description" content="The EKEHI token is the native cryptocurrency of the ecosystem, designed to be a leader in sustainable cryptocurrency. It is environmentally friendly, energy-efficient, and supports global sustainability goals." />
-                <meta name="twitter:image" content="images/HEADER.jpg" />
+                <meta name="twitter:image" content="https://ekehi.network/images/HEADER.jpg" />
                 <link rel="icon" type="image/png" href="images/favicon.png" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
