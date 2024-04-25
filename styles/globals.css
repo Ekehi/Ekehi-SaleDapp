@@ -15,8 +15,14 @@ body,html {
   font-size: 18px;
   font-weight: 400;
   line-height: 36px;
-  overflow: hidden;
+  overflow-x: auto;
   width: fit-content;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
 }
 
 ul,
@@ -280,6 +286,10 @@ blockquote p {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%
+  }
+
+  .mtop {
+    padding-top: 50px;
   }
 
 }
