@@ -25,6 +25,7 @@ body,html {
   height: 0;
 }
 
+
 ul,
 ol {
   margin: 0;
@@ -279,6 +280,10 @@ blockquote p {
   max-width: 33.333333%
 }
 
+.show{
+  display: none;
+}
+
 
 @media (max-width:768px){
   .col-md-6 {
@@ -523,4 +528,18 @@ blockquote p {
 /* Separator for time values */
 .time-segment:not(:last-child):after {
   margin-left: 10px; /* Space after the separator */
+}
+
+/*---------------------join presale button------------*/
+
+@media (min-width: 768px) and (max-width: 987px ){
+
+  .hide{
+    display: none;
+  }
+
+  .show{
+    display: block;
+  }
+  
 }

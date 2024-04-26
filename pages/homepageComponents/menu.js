@@ -9,7 +9,7 @@ export default function Menu()
                 fluid={true}
                 rounded={true}
                 style={{margin:"auto"}}
-                className="px-2 sm:px-4 py-2.5 bg-gradient-to-b from-neutral-900 to-neutral-800 fixed w-full z-20 top-0 left-0 border-b  border-neutral-600 "
+                className="px-2 sm:px-4 py-2.5 bg-gradient-to-b from-neutral-900 to-neutral-800 fixed w-full z-20 top-0 left-0 border-b  border-yellow-600 "
             >
                 <Navbar.Brand href="#">
                     <img src="/images/logo.png" className="mr-3 sm:h-9" alt="Ekehi Presale" />
@@ -18,11 +18,11 @@ export default function Menu()
                     <a href="#section4">
                         <Button 
 
-                        className="text-white order-1  focus:ring-4 focus:outline-none focus:ring-red-300 rounded-lg font-medium text-sm text-center mr-3 md:mr-0 default-color ">
+                        className="text-white order-1 focus:ring-4 focus:outline-none focus:ring-red-300 rounded-lg font-medium text-sm text-center mr-3 md:mr-0 default-color ">
                             JOIN PRESALE
                         </Button>
                     </a>
-                    <Navbar.Toggle  className=" bg-white tcolor"/>
+                    <Navbar.Toggle  className="tcolor"/>
                 </div>
                 <Navbar.Collapse 
                 className="flex flex-col p-4 mt-4 rounded-lg border  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 border-gray-700 bg-gradient-to-b from-neutral-900 to-neutral-800">
@@ -70,6 +70,7 @@ export default function Menu()
                         href="#footer">
                         Contact
                     </Navbar.Link>
+
                 </Navbar.Collapse>
             </Navbar>
             {/* Menu END */}
