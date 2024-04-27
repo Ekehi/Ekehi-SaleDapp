@@ -54,7 +54,7 @@ export default function Footer()
                         </a>
                        
                         <a href="https://twitter.com/EkehiOfficial" className="text-white hover:text-blue-500">
-                            <FontAwesomeIcon icon={faTwitter} className="mr-2" />
+                            <FontAwesomeIcon icon={faTwitter} className="mr-2 ml-4" />
                             <span className="sr-only">Twitter page</span>
                         </a>
 
