@@ -9,7 +9,7 @@ export default function Menu()
                 fluid={true}
                 rounded={true}
                 style={{margin:"auto"}}
-                className="px-2 sm:px-4 py-2.5 bg-gradient-to-b bg-transparent from-slate-900 to-slate-800 fixed w-full z-20 top-0 left-0 border-b  border-slate-600 "
+                className="px-2 sm:px-4 py-2.5 bg-gradient-to-b  from-slate-900 to-slate-800 fixed w-full z-20 top-0 left-0 border-b  border-slate-600  "
             >
                 <Navbar.Brand href="#">
                     <img src="/images/logo.png" className="mr-3 sm:h-9" alt="Ekehi Presale" />
@@ -29,7 +29,7 @@ export default function Menu()
                     
                     <Navbar.Link
                         href="#home"
-                        className="uppercasess block py-2 pr-4 pl-3 text-white rounded  md:hover:text-orange-default md:p-0  hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-yellow-500"
+                        className="uppercasess block py-2 pr-4 pl-3 text-white rounded   md:p-0  hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-yellow-500"
                     >
                         Home
                     </Navbar.Link>

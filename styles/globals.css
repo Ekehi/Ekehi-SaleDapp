@@ -461,6 +461,7 @@ blockquote p {
     color: #ffa000;
 }
 }
+
 @media only screen and (max-width: 575px){
 .scroll {
     overflow: auto;
@@ -519,7 +520,7 @@ blockquote p {
 
 .time-label {
   display: block; /* Ensures label is on a new line */
-  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  background-color: rgba(255, 255, 255, 0); /* Semi-transparent white background */
   padding: 5px; /* Padding around the label text */
   border-radius: 5px; /* Rounded corners for the label background */
   margin-top: 5px; /* Space between the time value and label */
