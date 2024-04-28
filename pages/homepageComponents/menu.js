@@ -11,7 +11,7 @@ export default function Menu()
                 style={{margin:"auto"}}
                 className="px-2 sm:px-4 py-2.5 bg-gradient-to-b  from-slate-900 to-slate-800 fixed w-full z-20 top-0 left-0 border-b  border-slate-600  "
             >
-                <Navbar.Brand href="#">
+                <Navbar.Brand href="https://ekehi.network">
                     <img src="/images/logo.png" className="mr-3 sm:h-9" alt="Ekehi Presale" />
                 </Navbar.Brand>
                 <div className="flex md:order-2">
