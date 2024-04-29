@@ -47,7 +47,7 @@ export default function Ecosystem() {
             <section id="section5" className="flex place-items-center justify-around h-fit bg-fixed bg-center bg-cover ">
                 <div className="text-center">
                     <div className="box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md  from-neutral-900 rounded-lg">
-                        <h2 className="text-white font-bold">Our Self-Sustaining Ecosystem</h2>
+                        <h2 className="tcolor font-bold">Our Self-Sustaining Ecosystem</h2>
                         <h4 className="lead text-white font-bold">
                         </h4>
                         <div className="flex flex-row w-full mb-3">

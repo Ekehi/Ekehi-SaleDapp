@@ -25,6 +25,7 @@ body,html {
   height: 0;
 }
 
+
 ul,
 ol {
   margin: 0;
@@ -279,6 +280,10 @@ blockquote p {
   max-width: 33.333333%
 }
 
+.show{
+  display: none;
+}
+
 
 @media (max-width:768px){
   .col-md-6 {
@@ -456,6 +461,7 @@ blockquote p {
     color: #ffa000;
 }
 }
+
 @media only screen and (max-width: 575px){
 .scroll {
     overflow: auto;
@@ -514,7 +520,7 @@ blockquote p {
 
 .time-label {
   display: block; /* Ensures label is on a new line */
-  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+  background-color: rgba(255, 255, 255, 0); /* Semi-transparent white background */
   padding: 5px; /* Padding around the label text */
   border-radius: 5px; /* Rounded corners for the label background */
   margin-top: 5px; /* Space between the time value and label */
@@ -523,4 +529,18 @@ blockquote p {
 /* Separator for time values */
 .time-segment:not(:last-child):after {
   margin-left: 10px; /* Space after the separator */
+}
+
+/*---------------------join presale button------------*/
+
+@media (min-width: 768px) and (max-width: 987px ){
+
+  .hide{
+    display: none;
+  }
+
+  .show{
+    display: block;
+  }
+  
 }

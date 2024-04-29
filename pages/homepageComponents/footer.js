@@ -30,7 +30,7 @@ export default function Footer()
                         </p>
                     </div>
                     <div>
-                        <h2 className="mb-6 text-lg font-semibold uppercase tcolor">Company contacts</h2>
+                        <h2 className="mb-6 mr-5 text-lg font-semibold uppercase tcolor">contacts</h2>
                         <ul className="text-white">
                             <li className="mb-4">
                                 <a href="https://t.me/ekehiOfficial" className="hover:underline"><FontAwesomeIcon icon={faTelegram} className="mr-2 hover:text-blue-500" /> Telegram</a>
@@ -43,7 +43,7 @@ export default function Footer()
                         </ul>
                     </div>
                 </div>
-                <div className="py-1 px-4 bg-neutral-900 md:flex md:items-center md:justify-between min-w-full">
+                <div className="py-1 px-4 bg-slate-900 md:flex md:items-center md:justify-between min-w-full">
                     <div className="flex  space-x-6 sm:justify-between md:mt-0 justify-between w-full">
                     <span className="font14 font-thin text-white sm:text-center align-bottom">&copy; 2024 <a href="#">Ekehi</a>. All Rights Reserved.
                     </span>
@@ -54,7 +54,7 @@ export default function Footer()
                         </a>
                        
                         <a href="https://twitter.com/EkehiOfficial" className="text-white hover:text-blue-500">
-                            <FontAwesomeIcon icon={faTwitter} className="mr-2" />
+                            <FontAwesomeIcon icon={faTwitter} className="mr-2 ml-4" />
                             <span className="sr-only">Twitter page</span>
                         </a>
 
