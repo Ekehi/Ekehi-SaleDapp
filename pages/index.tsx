@@ -2,7 +2,7 @@ import Menu from "./homepageComponents/menu.js";
 import HomeSection from "./homepageComponents/home.js";
 import Section2 from "./homepageComponents/section2.js";
 import Section3 from "./homepageComponents/whitepaper.js";
-//import Section4 from "./homepageComponents/sales.js";
+import Section4 from "./homepageComponents/sales.js";
 import Ecosystem from "./homepageComponents/ecosystem.js";
 import Tokenomics from "./homepageComponents/tokenomics.js";
 import Roadmap from "./homepageComponents/roadmap.js";
@@ -17,7 +17,7 @@ export default function Home()
         <HomeSection />
         <Section2 />
         <Section3 />
-        {/* <Section4 /> */}
+        <Section4 />
         <Ecosystem />     
         <Tokenomics />
         <Roadmap />

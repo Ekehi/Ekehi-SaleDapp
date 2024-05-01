@@ -234,8 +234,8 @@ export default function SeedSale()
             <div className="text-center">
                 <div className="box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md bg-neutral-900 rounded-lg">
                     <h7 className="text-white font-bold">
-                        ✅ 1st May 2024<br />
-                        Presale
+                        PRESALE <br />
+                        <span className="tcolor">Round One 🥇</span>
                     </h7>
                     <h4 className="text-white font-bold text-4xl">
                         1 EKH = {presaleDataParsed?.price?.toFixed(4)}$

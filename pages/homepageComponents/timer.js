@@ -101,7 +101,7 @@ const CountDownTimer = ({ deadline }) => {
 };
 
 export default function IcoLandingPage() {
-  const deadline = '2024-04-30T23:59:59'; // Replace with your actual deadline
+  const deadline = '2024-05-31T23:59:59'; // Replace with your actual deadline
 
   return React.createElement(
     'div',

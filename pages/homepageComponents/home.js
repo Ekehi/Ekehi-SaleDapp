@@ -32,7 +32,12 @@ export default function HomeSection() {
 
           <div className="mt-[100px]">
             <h4 className="lead text-white pad font-semibold">
-            ⏳COUNTDOWN TO PRESALE⏳
+              Presale is <span className="text-red-700 ">Live📢</span>
+            </h4>
+
+            <h4 className="lead text-white pad font-semibold pt-8 -mb-4">
+      
+            ROUND 1 of 5
             </h4>
           </div>
 
