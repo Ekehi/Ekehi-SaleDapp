@@ -25,12 +25,12 @@ export default function HomeSection() {
             >
               Whitepaper
             </a>
-            <a href="#section4" className="btn btn-border btn-radius">
+            {/* <a href="#section4" className="btn btn-border btn-radius">
               Buy Token
-            </a>
+            </a> */}
           </div>
 
-          <div className="mt-[100px]">
+          {/* <div className="mt-[100px]">
             <h4 className="lead text-white pad font-semibold">
               Presale is <span className="text-red-700 ">Live📢</span>
             </h4>
@@ -40,8 +40,8 @@ export default function HomeSection() {
             ROUND 1 of 5
             </h4>
           </div>
-
-        <Timer />
+ */}
+       {/*  <Timer /> */}
         </div>
       </section>
       {/* PARALLAX ONE END */}
