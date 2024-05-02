@@ -15,13 +15,13 @@ export default function Menu()
                     <img src="/images/logo.png" className="mr-3 sm:h-9" alt="Ekehi Presale" />
                 </Navbar.Brand>
                 <div className="flex md:order-2">
-                    <a href="#section4">
+                    {/* <a href="#section4">
                         <Button 
 
                         className="text-white order-1 focus:ring-4 focus:outline-none focus:ring-red-300 rounded-lg font-medium text-sm text-center mr-3 md:mr-0 default-color ">
                             JOIN PRESALE
                         </Button>
-                    </a>
+                    </a> */}
                     <Navbar.Toggle  className="tcolor"/>
                 </div>
                 <Navbar.Collapse 
