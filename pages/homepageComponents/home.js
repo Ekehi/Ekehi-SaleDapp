@@ -21,7 +21,7 @@ export default function HomeSection() {
             <a
               href="/whitepaper/whitepaper.pdf"
               download={"whitepaper.pdf"}
-              className="btn bg-yellow-400 font-bold text-white hover:outline-none outline outline-1 btn-radius nav-link content-popup "
+              className="w-max rounded-3xl ml-2 px-6 py-3 bg-yellow-400 font-bold text-white hover:outline-none outline outline-1 btn-radius nav-link content-popup "
             >
               Whitepaper
             </a>
