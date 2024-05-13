@@ -353,7 +353,6 @@ blockquote p {
   line-height: 54px;
   padding: 0 25px;
   position: relative;
-  text-transform: uppercase;
   vertical-align: middle;
 
 }
@@ -387,7 +386,6 @@ blockquote p {
   border: 0;
   color: #fff;
   outline: none;
-  text-transform: uppercase;
   z-index: 2;
   transition: all 0.5s ease 0s;
 }
@@ -400,7 +398,6 @@ blockquote p {
   border: solid 2px #ffa000;
   color: #fff;
   outline: none;
-  text-transform: uppercase;
   background-color:transparent;
 }
 
@@ -433,6 +430,9 @@ blockquote p {
     vertical-align: middle
 }
 
+.central{
+  margin: 20px auto;
+}
 @media only screen and (max-width:576px) {
 
   .btn {
