@@ -65,9 +65,6 @@ export default function Tokenomics()
                                 
                             />
                         </h4>
-                        {/* <p className="text-white mb-10">
-                        EKEHI collaborates with businesses, organizations, and individuals who share its vision of promoting sustainability through cryptocurrency and blockchain technology.
-                        </p> */}
                         <h5 className="ml-[3%] bg-slate-300 text-black hover:bg-slate-400 font-bold uppercase text-base px-8 py-3 rounded-[24px] shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
                             Tokenomics<br />
                         </h5>
