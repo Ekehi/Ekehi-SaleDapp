@@ -496,7 +496,7 @@ blockquote p {
   background-color: rgba(255, 255, 255, 0);
   padding: 10px;
   border-radius: 5px;
-  border: solid 2px #ffcc67;
+  /* border: solid 2px #ffcc67; */
 }
 
 .countdown-timer {
@@ -504,7 +504,7 @@ blockquote p {
   display: flex;
   align-items: center;
   color: white; /* Default text color for labels */
-  margin-top: 20px;
+  margin-top: 10px;
   
 }
 
@@ -526,10 +526,6 @@ blockquote p {
   margin-top: 5px; /* Space between the time value and label */
 }
 
-/* Separator for time values */
-.time-segment:not(:last-child):after {
-  margin-left: 10px; /* Space after the separator */
-}
 
 /*---------------------join presale button------------*/
 
