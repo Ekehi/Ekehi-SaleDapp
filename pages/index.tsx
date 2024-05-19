@@ -7,6 +7,7 @@ import Ecosystem from "./homepageComponents/ecosystem.js";
 import Tokenomics from "./homepageComponents/tokenomics.js";
 import Roadmap from "./homepageComponents/roadmap.js";
 import Footer from "./homepageComponents/footer.js";
+import Airdrop from "./homepageComponents/airdrop.js";
 
 export default function Home()
 {
@@ -17,7 +18,7 @@ export default function Home()
         <HomeSection />
         <Section2 />
         <Section3 />
-        <Section4 />
+        {/* <Section4 /> */}
         <Ecosystem />     
         <Tokenomics />
         <Roadmap />

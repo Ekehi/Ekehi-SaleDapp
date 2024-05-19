@@ -353,7 +353,6 @@ blockquote p {
   line-height: 54px;
   padding: 0 25px;
   position: relative;
-  text-transform: uppercase;
   vertical-align: middle;
 
 }
@@ -387,7 +386,6 @@ blockquote p {
   border: 0;
   color: #fff;
   outline: none;
-  text-transform: uppercase;
   z-index: 2;
   transition: all 0.5s ease 0s;
 }
@@ -400,7 +398,6 @@ blockquote p {
   border: solid 2px #ffa000;
   color: #fff;
   outline: none;
-  text-transform: uppercase;
   background-color:transparent;
 }
 
@@ -433,6 +430,9 @@ blockquote p {
     vertical-align: middle
 }
 
+.central{
+  margin: 20px auto;
+}
 @media only screen and (max-width:576px) {
 
   .btn {
@@ -496,7 +496,7 @@ blockquote p {
   background-color: rgba(255, 255, 255, 0);
   padding: 10px;
   border-radius: 5px;
-  border: solid 2px #ffcc67;
+  /* border: solid 2px #ffcc67; */
 }
 
 .countdown-timer {
@@ -504,7 +504,7 @@ blockquote p {
   display: flex;
   align-items: center;
   color: white; /* Default text color for labels */
-  margin-top: 20px;
+  margin-top: 10px;
   
 }
 
@@ -526,10 +526,6 @@ blockquote p {
   margin-top: 5px; /* Space between the time value and label */
 }
 
-/* Separator for time values */
-.time-segment:not(:last-child):after {
-  margin-left: 10px; /* Space after the separator */
-}
 
 /*---------------------join presale button------------*/
 

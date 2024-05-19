@@ -21,22 +21,33 @@ export default function HomeSection() {
             <a
               href="/whitepaper/whitepaper.pdf"
               download={"whitepaper.pdf"}
-              className="btn btn-default btn-radius nav-link content-popup"
+              className="w-max rounded-3xl ml-2 px-6 py-3 bg-yellow-400 font-bold text-white hover:outline-none outline outline-1 btn-radius nav-link content-popup "
             >
               Whitepaper
             </a>
-            <a href="#section4" className="btn btn-border btn-radius">
+
+            <a 
+                    className='font-bold text-white bg-pink-500 hover:bg-white hover:text-pink-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
+                    href='#airdrop'>
+                        Join Airdrop
+                    </a>
+            {/* <a href="#section4" className="btn btn-border btn-radius">
               Buy Token
-            </a>
+            </a> */}
           </div>
 
-          <div className="mt-[100px]">
+          {/* <div className="mt-[100px]">
             <h4 className="lead text-white pad font-semibold">
-            ⏳COUNTDOWN TO PRESALE⏳
+              Presale is <span className="text-red-700 ">Live📢</span>
+            </h4>
+
+            <h4 className="lead text-white pad font-semibold pt-8 -mb-4">
+      
+            ROUND 1 of 5
             </h4>
           </div>
-
-        <Timer />
+ */}
+       {/*  <Timer /> */}
         </div>
       </section>
       {/* PARALLAX ONE END */}
