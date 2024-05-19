@@ -39,8 +39,27 @@ const binanceChainTestNet: Chain = {
   testnet: true,
 };
 
+const amoy: Chain = {
+  id: 80002,
+  name: 'Polygon Amoy',
+  network: 'amoy',
+  nativeCurrency: {
+    decimals: 18,
+    name: 'Matic',
+    symbol: 'MATIC',
+  },
+  rpcUrls: {
+    public: 'https://rpc-amoy.polygon.technology/',
+    default: 'https://rpc-amoy.polygon.technology/',
+  },
+  blockExplorers: {
+    default: { name: 'Polygonscan', url: 'https://www.oklink.com/amoy' },
+  },
+  testnet: true,
+};
+
 const { chains, provider } = configureChains(
-  [binanceChainTestNet],
+  [binanceChainTestNet, amoy],
   [
     alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_ALCHEMY_ID }),
     publicProvider()
