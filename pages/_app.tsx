@@ -59,7 +59,7 @@ const amoy: Chain = {
 };
 
 const { chains, provider } = configureChains(
-  [binanceChainTestNet, amoy],
+  [chain.polygon],
   [
     alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_ALCHEMY_ID }),
     publicProvider()
@@ -104,7 +104,7 @@ export default function App({ Component, pageProps }: AppProps)
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider coolMode chains={chains} theme={darkTheme(
         {
-          accentColor: '#E02424',
+          accentColor: '#ff67cb',
           accentColorForeground: 'white',
           borderRadius: 'large',
           fontStack: 'system',
