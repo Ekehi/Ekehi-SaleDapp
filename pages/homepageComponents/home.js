@@ -31,9 +31,6 @@ export default function HomeSection() {
                     href='#airdrop'>
                         Join Airdrop
                     </a>
-            <a href="#presale" className="btn btn-border btn-radius">
-              Buy Token
-            </a>
           </div>
 
           <div className="mt-[100px]">
