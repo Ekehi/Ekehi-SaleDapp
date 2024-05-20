@@ -31,12 +31,12 @@ export default function HomeSection() {
                     href='#airdrop'>
                         Join Airdrop
                     </a>
-            {/* <a href="#section4" className="btn btn-border btn-radius">
+            <a href="#presale" className="btn btn-border btn-radius">
               Buy Token
-            </a> */}
+            </a>
           </div>
 
-          {/* <div className="mt-[100px]">
+          <div className="mt-[100px]">
             <h4 className="lead text-white pad font-semibold">
               Presale is <span className="text-red-700 ">Live📢</span>
             </h4>
@@ -46,7 +46,7 @@ export default function HomeSection() {
             ROUND 1 of 5
             </h4>
           </div>
- */}
+
        {/*  <Timer /> */}
         </div>
       </section>
