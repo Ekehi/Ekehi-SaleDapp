@@ -22,13 +22,6 @@ export default function Menu() {
 
                         <span class="flex items-center rounded-md text-sm px-4 py-2">JOIN PRESALE</span>
                     </a>
-                    <a href="#presale">
-                        <Button 
-
-                        className="text-white order-1 focus:ring-4 focus:outline-none focus:ring-red-300 rounded-lg font-medium text-sm text-center mr-3 md:mr-0 default-color ">
-                            JOIN PRESALE
-                        </Button>
-                    </a>
                     <Navbar.Toggle  className="tcolor"/>
                 </div>
                 <Navbar.Collapse
