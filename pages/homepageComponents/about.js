@@ -9,11 +9,11 @@ export default function Section2() {
     return (
         <>
             {/* PARALLAX TWO START */}
-            <section id="about" className="flex items-center justify-center py-16 h-fit bg-fixed bg-center bg-cover bg-slate-900">
+            <section id="about" className="flex items-center justify-center pt-16 h-fit bg-fixed bg-center bg-cover bg-slate-900">
                 <div className="text-center">
                     <div className="box-cont h-fit w-fit mt-[10%] px-14 mb-10 py-8 shadow-md bg-gradient-to-r from-slate-900 rounded-lg ">
                         <h4 className="uppercase tcolor font-bold">About Ekehi</h4>
-                        <p className="lowercase text-white font-small scrollmb-2 ">
+                        <p className="lowercase text-white font-small scroll mb-4 ">
                             EKEHI, a project symbolized as EKH, is a cryptocurrency project that aims to be more than just a means of financial exchange. It envisions a future where digital transactions are coupled with a focus on community growth, driving financial empowerment for individuals. It's an idea with a bigger mission to make a positive impact not only in the financial realm, but also in the social realm by fostering community growth.
 
 

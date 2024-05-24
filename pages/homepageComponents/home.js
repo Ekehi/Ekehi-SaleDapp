@@ -51,7 +51,7 @@ export default function HomeSection() {
           <Timer />
           <a
               className='font-bold text-white   hover:text-yellow-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
-              href='#airdrop'>
+              href='#presale'>
               BUY EKEHI
             </a>
         </div>
