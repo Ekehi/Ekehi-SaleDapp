@@ -1,6 +1,6 @@
 import Menu from "./homepageComponents/menu.js";
 import HomeSection from "./homepageComponents/home.js";
-import Section2 from "./homepageComponents/section2.js";
+import About from "./homepageComponents/about.js";
 import Section3 from "./homepageComponents/whitepaper.js";
 import Section4 from "./homepageComponents/sales.js";
 import Ecosystem from "./homepageComponents/ecosystem.js";
@@ -16,13 +16,14 @@ export default function Home()
       <Menu />
       <main  className="w-fit">
         <HomeSection />
-        <Section2 />
+        <About />
         <Section3 />
         <Section4 />
         <Airdrop />
         <Ecosystem />     
         <Tokenomics />
         <Roadmap />
+        <Airdrop/>
         <Footer />
       </main>
     </div>

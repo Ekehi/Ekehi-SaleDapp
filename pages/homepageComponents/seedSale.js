@@ -231,8 +231,8 @@ export default function SeedSale()
 
     return (
         <>
-            <div className="text-center">
-                <div className="box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md bg-neutral-900 rounded-lg">
+            <div  className="text-center">
+                <div  className="box-cont shado.w-md rou.nded-lg  box-cont h-fit w-fit px-14 mb-10 py-8 shadow-inner bg-gradient-to-r from-slate-900 rounded-lg ">
                     <h7 className="text-white font-bold">
                         PRESALE <br />
                         <span className="tcolor">Round One 🥇</span>

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Typewriter from 'typewriter-effect';
-import Modal from './instruct';
-import Timer from "./timer.js";
+import Modal from './instructAirdrop';
+import Timer from "./timerAirdrop.js";
 
 export default function Airdrop() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -16,11 +16,9 @@ export default function Airdrop() {
         setIsModalOpen(false);
     };
 
-    const deadline1 = '2024-06-13T23:59:59';
-
     return (
         <>
-            <section id="airdrop" className="flex shadow-md place-items-center justify-around h-fit bg-fixed bg-center pt-72 bg-cover bg-[url('/images/bg/1.jpg')]">
+            <section id="airdrop" className="flex shadow-md place-items-center justify-around h-fit bg-fixed bg-center pt-52 bg-cover bg-[url('/images/bg/1.jpg')]">
                 <div className="text-center " >
                     <div className=" box-cont h-fit w-fit px-14 mb-10 py-8 shadow-inner bg-gradient-to-r from-slate-900 rounded-lg">
                         <h2 className="font-bold text-white w-max px-6 py-3 m-auto underline underline-offset-8">Our Airdrop</h2>
@@ -33,9 +31,6 @@ export default function Airdrop() {
                                     loop: true,
                                     pauseFor: 6000,
                                     cursor: '.',
-                                    /*  styles:{
-                                         textColor:"#ffa000"
-                                     }, */
                                 }}
 
                             />
@@ -54,7 +49,7 @@ export default function Airdrop() {
                             Ends in 
                         </h5>
                         <div className='mb-4'>
-                            <Timer deadline={deadline1}  />
+                            <Timer  />
                         </div>
                         
                         <a

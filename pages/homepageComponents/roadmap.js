@@ -4,9 +4,9 @@ export default function Roadmap()
 {
     return (
         <>
-            <section id="roadmap" className="flex place-items-center pt-24 justify-around shadow-md h-fit bg-fixed bg-center bg-cover bg-[url('/images/bg/15.ojpg')]">
+            <section id="roadmap" className="flex place-items-center pt-24 justify-around shadow-md h-fit bg-fixed bg-center bg-cover bg-[url('/images/bg/5.jpeg')]">
                 <div className="text-center">
-                    <div className="box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md bg-gradient-to-r from-slate-900 to-slate-800">
+                    <div className="box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md bg-gradient-to-r from-slate-900 ">
                         <h2 className="text-white font-bold">Join us on this project</h2>
                         <h4 className="lead text-white font-bold">
                             <Typewriter

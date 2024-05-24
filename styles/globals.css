@@ -50,7 +50,7 @@ h3 span,
 h4 span,
 h5 span,
 h6 span {
-  color: #ffc112;
+  color: #ffa000;
 }
 
 h1.lead {
@@ -468,10 +468,25 @@ blockquote p {
     max-height: 300px;
     padding: 2px;
 }
+
+}
+
+@media (min-width: 320px) {
+  .half {
+      width: 50%;
+  }
+  .tc {
+    text-align: center;
+}
 }
 
 .font14{
   font-size: 0.875rem;
+}
+
+.iscroll {
+  overflow: scroll;
+  padding: 2px;
 }
 
 
@@ -503,27 +518,27 @@ blockquote p {
   position: relative;
   display: flex;
   align-items: center;
-  color: white; /* Default text color for labels */
+  color: white; 
   margin-top: 10px;
   
 }
 
 .time-segment {
   text-align: center;
-  margin: 0 10px; /* Adjusts space between segments */
+  margin: 0 10px; 
 }
 
 .time-value {
-  color: gold; /* Gold color for time values */
-  font-size: 2em; /* Larger font size for emphasis */
+  color: #ffa000; 
+  font-size: 2em; 
 }
 
 .time-label {
-  display: block; /* Ensures label is on a new line */
-  background-color: rgba(255, 255, 255, 0); /* Semi-transparent white background */
-  padding: 5px; /* Padding around the label text */
-  border-radius: 5px; /* Rounded corners for the label background */
-  margin-top: 5px; /* Space between the time value and label */
+  display: block; 
+  background-color: rgba(255, 255, 255, 0); 
+  padding: 5px; 
+  border-radius: 5px; 
+  margin-top: 5px; 
 }
 
 

@@ -44,7 +44,7 @@ export default function Ecosystem() {
     ];
     return (
         <>
-            <section id="ecosystem" className="flex place-items-center justify-around h-fit bg-fixed bg-center bg-cover ">
+            <section id="ecosystem" className="flex place-items-center justify-around py-20 h-fit bg-fixed bg-center bg-cover ">
                 <div className="text-center">
                     <div className="box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md  from-neutral-900 rounded-lg">
                         <h2 className="tcolor font-bold">Our Self-Sustaining Ecosystem</h2>
@@ -69,7 +69,7 @@ export default function Ecosystem() {
                                         data-animation-delay={`0.${i + 6}s`}
                                     >
                     
-                                        <h4 style={{ color: "#f8cd0a" }}>{service.title}</h4>
+                                        <h4 style={{ color: "#ffa000" }}>{service.title}</h4>
                                         <p 
                                         className="text-sm text-white"
                                         stye={{ textAlign: "centre" ,fontSize:"12px", fontFamily:"sans-serif" }}>{service.discription}</p>
