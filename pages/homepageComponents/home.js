@@ -1,12 +1,13 @@
-import Timer from "./timer.js";
+import Timer from "./timerPresale.js";
 
 
 // Homepage Home Section
 export default function HomeSection() {
+
   return (
     <>
       {/* PARALLAX ONE START */}
-      <section id="home" className="mtop flex items-center justify-center h-fit pt-72 bg-fixed bg-center bg-cover bg-[url('/images/bg/16.ojpg')]">
+      <section id="home" className="mtop flex items-center justify-center h-fit pt-60  pb-16 bg-fixed bg-center bg-cover bg-[url('/images/bg/4.jpg')]">
         <div className="container mx-auto text-center mt-[100px] md:mt-0 pad">
           <h2 className="lead text-white pad">
             <strong className="tcolor">Ekehi:</strong> Redefining Cryptocurrency
@@ -26,28 +27,33 @@ export default function HomeSection() {
               Whitepaper
             </a>
 
-            <a 
-                    className='font-bold text-white bg-pink-500 hover:bg-white hover:text-pink-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
-                    href='#airdrop'>
-                        Join Airdrop
-                    </a>
+            <a
+              className='font-bold text-white bg-pink-500 hover:bg-white hover:text-pink-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
+              href='#airdrop'>
+              Join Airdrop
+            </a>
             {/* <a href="#section4" className="btn btn-border btn-radius">
               Buy Token
             </a> */}
           </div>
 
-          {/* <div className="mt-[100px]">
-            <h4 className="lead text-white pad font-semibold">
-              Presale is <span className="text-red-700 ">Live📢</span>
+          <div className="mt-[100px] -mb-2">
+            <h4 className="lead text-white pad font-semibold uppercase">
+              Presale is now <span className="text-red-700 ">Live📢</span>
             </h4>
 
-            <h4 className="lead text-white pad font-semibold pt-8 -mb-4">
-      
-            ROUND 1 of 5
-            </h4>
+            <p className="lead text-white pad font-bold text-lg border-2 border-dotted border-yellow-500 central w-max rounded-3xl px-6 py-3 bg-transparent">
+
+              ROUND  <span className="text-red-600 font-light text-3xl px-1"> 1 </span> OF <span className="text-red-600 font-light text-3xl pl-1">  5  </span>
+            </p>
           </div>
- */}
-       {/*  <Timer /> */}
+
+          <Timer />
+          <a
+              className='font-bold text-white   hover:text-yellow-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
+              href='#airdrop'>
+              BUY EKEHI
+            </a>
         </div>
       </section>
       {/* PARALLAX ONE END */}

@@ -10,7 +10,7 @@ export default function Section3()
 {
     return (
         <>
-            <section id="whitepaper" className="flex place-items-center justify-around h-fit bg-fixed bg-center ">
+            <section id="whitepaper" className="flex place-items-center justify-around py-20 h-fit bg-fixed bg-center ">
                 <div className="text-center">
                     <div style={{alignItems:"center"}}
                     className="flex flex-col box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md bg-gradient-to-r rounded-lg justify-evenly">
@@ -31,7 +31,7 @@ export default function Section3()
                         </p>
                         <a href="/whitepaper/whitepaper.pdf"
                             target="_blank"
-                            className="bg-slate-300 text-black hover:bg-red-600 active:bg-red-900 font-bold uppercase text-base px-6 py-3 rounded-[24px] shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150">
+                            className="bg-gradient-to-b  from-slate-900 to-blue-900 text-white hover:bg-slate-600 active:bg-blue-400 font-bold uppercase text-base px-8 py-3 rounded-[24px] shadow-lg hover:shadow-xl outline-none focus:outline-none  mb-1 ease-linear transition-all duration-150">
                             <span>Download Whitepaper <FontAwesomeIcon icon={faCircleDown} className="ml-2" /></span>
                         </a>
                     </div>

@@ -102,7 +102,7 @@ const CountDownTimer = ({ deadline }) => {
 };
 
 export default function IcoLandingPage() {
-  const deadline1 = '2024-05-31T23:59:59'; // Replace with your actual deadline
+  const deadline1 = '2024-06-19T23:59:59'; // Replace with your actual deadline
   const deadline2 = '2024-06-13T23:59:59'
   return React.createElement(
     'div',
@@ -110,7 +110,7 @@ export default function IcoLandingPage() {
     React.createElement(
       'div',
       { className: 'row', style: { justifyContent: "center" } },
-      React.createElement(CountDownTimer, { deadline: deadline2 })
+      React.createElement(CountDownTimer, { deadline: deadline2 }),
     )
   );
 }

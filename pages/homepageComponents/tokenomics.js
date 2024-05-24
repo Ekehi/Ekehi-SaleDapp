@@ -46,7 +46,7 @@ export default function Tokenomics()
 {
     return (
         <>
-            <section id="tokenomics" className="flex shadow-md place-items-center justify-around h-fit bg-fixed bg-center bg-cover bg-[url('/images/bg/23.ojpg')]">
+            <section id="tokenomics" className="flex shadow-md place-items-center justify-around py-20 h-fit bg-fixed bg-center bg-cover bg-[url('/images/bg/23.ojpg')]">
                 <div className="text-center">
                     <div className="box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md bg-gradient-to-r from-slate-900 rounded-lg">
                         <h2 className="text-white font-bold">Tokenomics</h2>
@@ -73,7 +73,7 @@ export default function Tokenomics()
                         <div className="tokenomicsDiv">
                             <Doughnut
                                 data={data}
-                                height={350}
+                                height={380}
                                 width={100}
                                 options={{
                                     maintainAspectRatio: false,
