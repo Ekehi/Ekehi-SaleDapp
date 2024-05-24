@@ -39,8 +39,27 @@ const binanceChainTestNet: Chain = {
   testnet: true,
 };
 
+const amoy: Chain = {
+  id: 80002,
+  name: 'Polygon Amoy',
+  network: 'amoy',
+  nativeCurrency: {
+    decimals: 18,
+    name: 'Matic',
+    symbol: 'MATIC',
+  },
+  rpcUrls: {
+    public: 'https://rpc-amoy.polygon.technology/',
+    default: 'https://rpc-amoy.polygon.technology/',
+  },
+  blockExplorers: {
+    default: { name: 'Polygonscan', url: 'https://www.oklink.com/amoy' },
+  },
+  testnet: true,
+};
+
 const { chains, provider } = configureChains(
-  [binanceChainTestNet],
+  [chain.polygon],
   [
     alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_ALCHEMY_ID }),
     publicProvider()
@@ -85,7 +104,7 @@ export default function App({ Component, pageProps }: AppProps)
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider coolMode chains={chains} theme={darkTheme(
         {
-          accentColor: '#E02424',
+          accentColor: '#ff67cb',
           accentColorForeground: 'white',
           borderRadius: 'large',
           fontStack: 'system',

@@ -19,6 +19,7 @@ export default function Home()
         <About />
         <Section3 />
         <Section4 />
+        <Airdrop />
         <Ecosystem />     
         <Tokenomics />
         <Roadmap />

@@ -26,7 +26,6 @@ export default function HomeSection() {
             >
               Whitepaper
             </a>
-
             <a
               className='font-bold text-white bg-pink-500 hover:bg-white hover:text-pink-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
               href='#airdrop'>
@@ -40,6 +39,16 @@ export default function HomeSection() {
           <div className="mt-[100px] -mb-2">
             <h4 className="lead text-white pad font-semibold uppercase">
               Presale is now <span className="text-red-700 ">Live📢</span>
+            <a 
+                    className='font-bold text-white bg-pink-500 hover:bg-white hover:text-pink-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
+                    href='#airdrop'>
+                        Join Airdrop
+                    </a>
+          </div>
+
+          <div className="mt-[100px]">
+            <h4 className="lead text-white pad font-semibold">
+              Presale is <span className="text-red-700 ">Live📢</span>
             </h4>
 
             <p className="lead text-white pad font-bold text-lg border-2 border-dotted border-yellow-500 central w-max rounded-3xl px-6 py-3 bg-transparent">
@@ -54,6 +63,7 @@ export default function HomeSection() {
               href='#presale'>
               BUY EKEHI
             </a>
+       {/*  <Timer /> */}
         </div>
       </section>
       {/* PARALLAX ONE END */}

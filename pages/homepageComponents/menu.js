@@ -22,6 +22,14 @@ export default function Menu() {
 
                         <span class="flex items-center rounded-md text-sm px-4 py-2">JOIN PRESALE</span>
                     </a>
+                    <a href="#presale">
+                        <Button 
+
+                        className="text-white order-1 focus:ring-4 focus:outline-none focus:ring-red-300 rounded-lg font-medium text-sm text-center mr-3 md:mr-0 default-color ">
+                            JOIN PRESALE
+                        </Button>
+                    </a>
+                    <Navbar.Toggle  className="tcolor"/>
                 </div>
                 <Navbar.Collapse
                     className="flex flex-col p-4 mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 border-yellow-500 bg-gradient-to-b  from-slate-900 to-blue-900">
@@ -45,6 +53,15 @@ export default function Menu() {
                     </HoverLink>
                     <HoverLink href="#ecosystem"
                         initialState={true}>
+                    </Navbar.Link>
+                    <Navbar.Link
+                        className="uppercasess block py-2 pr-4 pl-3 text-white rounded  default-txt md:p-0  hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-yellow-500"
+                        href="#presale">
+                        Presales
+                    </Navbar.Link>
+                    <Navbar.Link
+                        className="uppercasess block py-2 pr-4 pl-3 text-white rounded  default-txt md:p-0  hover:bg-gray-700 hover:text-white md:hover:bg-transparent border-yellow-500"
+                        href="#ecosystem">
                         Ecosystem
                     </HoverLink>
                     <HoverLink href="#tokenomics"

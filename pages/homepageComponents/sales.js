@@ -76,4 +76,16 @@ export default function Section4() {
       <Modals isOpen={isModalOpen} onClose={closeModals} />
     </>
   )
+export default function Section4()
+{
+    return (
+        <>
+            <section id="presale" className="flex place-items-center justify-around h-fit bg-fixed bg-center bg-cover bg-[url('/images/bg/20.ojpg')]">
+                <div className="grid grid-flow-row auto-rows-min sm:grid-flow-col justify-around">
+                    
+                    <SeedSale />
+                </div>
+            </section>
+        </>
+    )
 }
