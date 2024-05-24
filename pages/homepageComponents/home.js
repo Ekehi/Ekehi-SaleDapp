@@ -39,6 +39,7 @@ export default function HomeSection() {
           <div className="mt-[100px] -mb-2">
             <h4 className="lead text-white pad font-semibold uppercase">
               Presale is now <span className="text-red-700 ">Live📢</span>
+            </h4>
             <a 
                     className='font-bold text-white bg-pink-500 hover:bg-white hover:text-pink-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
                     href='#airdrop'>
