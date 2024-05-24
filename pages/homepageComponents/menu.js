@@ -17,7 +17,6 @@ export default function Menu() {
                     <img src="/images/logo.png" className="mr-2 sm:h-9" alt="Ekehi Presale" />
                 </Navbar.Brand>
                 <div className="flex md:order-2">
-                <Navbar.Toggle className="tcolor order-2" />
                     <a href="#presale">
                         <Button 
 
@@ -25,16 +24,14 @@ export default function Menu() {
                             JOIN PRESALE
                         </Button>
                     </a>
-                    <Navbar.Toggle  className="tcolor"/>
+                <Navbar.Toggle  className="tcolor"/>
                 </div>
                 <Navbar.Collapse
                     className="flex flex-col p-4 mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 border-yellow-500 bg-gradient-to-b  from-slate-900 to-blue-900">
-
                     <HoverLink href="#home"
                         initialState={true}>
                         Home
                     </HoverLink>
-
                     <HoverLink href="#about"
                         initialState={true}>
                         About
@@ -59,14 +56,10 @@ export default function Menu() {
                         initialState={true}>
                         Roadmap
                     </HoverLink>
-
                     <HoverLink href="#contact"
                         initialState={true}>
                         Contact
                     </HoverLink>
-
-
-
                 </Navbar.Collapse>
             </Navbar>
             {/* Menu END */}
