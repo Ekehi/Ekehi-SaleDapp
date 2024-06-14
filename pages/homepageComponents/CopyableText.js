@@ -17,7 +17,7 @@ const CopyableText = ({ addresses = [] }) => {
       {addresses.map((address, index) => (
         <div key={index} className="flex mb-2">
           {address.label && <span className="mr-2">{address.label}:</span>}
-          <span>{address.text}</span>
+          <span >{address.text}</span>
           <button
             className={`ml-2 rounded-md bg-gradient-to-r from-slate-900 to-blue-900 text-xs py-1 px-2 ${copiedIndexes.has(index) ? 'copied' : ''}`}
             onClick={() => handleCopyClick(index)}
