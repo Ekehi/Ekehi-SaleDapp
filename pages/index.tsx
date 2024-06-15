@@ -22,7 +22,7 @@ export default function Home()
         <Ecosystem />     
         <Tokenomics />
         <Roadmap />
-        <Airdrop/>
+        {/* <Airdrop/> */}
         <Footer />
       </main>
     </div>

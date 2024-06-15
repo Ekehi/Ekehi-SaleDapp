@@ -1,4 +1,6 @@
 import Typewriter from 'typewriter-effect';
+import LoadingSpinner from "./Loader"
+import Waiting from "./Waiting"
 
 export default function Roadmap()
 {
@@ -18,55 +20,43 @@ export default function Roadmap()
                                 }}
                             />
                         </h4>
-                        <div className="container mx-auto w-fit">
+                        <div className="container mx-auto w-max">
                             <ol className="relative border-l border-gray-200 dark:border-gray-700">
                                 <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 default-color rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time className="tcolor text-lg font-semibold  dark:text-white">
-                                        Q1 2024
+                                        PHASE 1
                                     </time>
-                                    <p className="text-white mb-4 text-base font-normal  dark:text-gray-400">
-                                        Development and launch of the EKEHI token presale, <br/>
-                                        including smartcontract creation and token sale. <br/>
-                                        EKEHI will also be listed on prominent tracking platform to establish its presence externally.
+                                    <p className="text-white mb-4 text-base text-left font-normal dark:text-gray-400 ml-12">
+                                    <LoadingSpinner/> Marketing and Promotions.<br/>
+                                    <Waiting/> Listing on Tracking Platforms. <br/>
+                                    <Waiting/> Partnership and Collaborations.<br/>
+                                    <Waiting/> Token Generation / Point Conversion.<br/>
+                                    <Waiting/> Listing on CEXs.<br/>
+                                    <Waiting/> Burning Events.<br/>
                                     </p>
                                 </li>
                                 <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 default-color rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time className="tcolor text-lg font-semibold  dark:text-white">
-                                        Q2 2024
+                                        PAHSE 2
                                     </time>
-                                    <p className="text-white mb-4 text-base font-normal  dark:text-gray-400">
-                                        Focus on establishing collaboration with well-known companies within and outside blockchain sector. <br/>
-                                        this will help spread awareness about the project among existing cryptocurrency users and those new to the blockchain space.
+                                    <p className="text-white mb-4 text-base font-normal text-left ml-12  dark:text-gray-400">
+                                       <Waiting/> Staking Events. <br/>
+                                       <Waiting/> DEX Building. <br/>
+                                       <Waiting/> DEX Lauching. <br/>
+                                       <Waiting/> Trading Events / DEX Promotions. <br/>
+                                       <Waiting/> BlockChain Testnets. <br/>
+                                       <Waiting/> RWA Tokenization Public Offering. <br/>
                                     </p>
                                 </li>
                                 <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 default-color rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                                     <time className="tcolor text-lg font-semibold  dark:text-white">
-                                        Q3 2024
+                                        PHASE 3
                                     </time>
-                                    <p className="text-white mb-4 text-base font-normal dark:text-gray-400">
-                                        Active development and testing of the EKEHICHAIN and EKEHI swap testnets to ensure efficiency and functionality.
-                                    </p>
-                                </li>
-                                <li className="mb-10 ml-4">
-                                    <div className="absolute w-3 h-3 default-color rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                                    <time className="tcolor text-lg font-semibold  dark:text-white">
-                                        Q4 2024
-                                    </time>
-                                    <p className="text-white mb-4 text-base font-normal  dark:text-gray-400">
-                                        Listing of EKEHI token no several centralized exchanges to begin trading activities.
-                                    </p>
-                                </li>
-                                <li className="mb-10 ml-4">
-                                    <div className="absolute w-3 h-3 default-color rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                                    <time className="tcolor text-lg font-semibold  dark:text-white">
-                                        Q1 2025
-                                    </time>
-                                    <p className="text-white mb-4 text-base font-normal  dark:text-gray-400">
-                                        Official launch of EKEHICHAIN and swap for full functionality, <br/>
-                                        representing a major milestone for the project.
+                                    <p className="text-white mb-4 text-base font-normal justify-start text-left ml-12 dark:text-gray-400">
+                                    <Waiting/> BlockChain Launch.
                                     </p>
                                 </li>
                             </ol>

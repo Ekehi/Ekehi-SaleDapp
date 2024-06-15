@@ -555,3 +555,36 @@ blockquote p {
   }
   
 }
+
+
+/*---------------------Loader------------*/
+
+.custom-loader {
+  display: inline-block;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  padding:3px 1px 3px 3px;
+  background:conic-gradient(#0000 10%,#FFA000) content-box;
+  -webkit-mask:
+    repeating-conic-gradient(#000 0deg,#000 1deg 20deg,#000 21deg 36deg),
+    radial-gradient(farthest-side,#000 calc(100% - 4.5px),#000 calc(100% - 4px));
+  -webkit-mask-composite: destination-in;
+  mask-composite: intersect;
+  animation:s4 1s infinite steps(10);
+}
+@keyframes s4 {to{transform: rotate(1turn)}}
+
+.custom-waiting {
+  display: inline-block;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  padding:3px 1px 3px 3px;
+  background:conic-gradient(#0000 10%,#ffa000) content-box;
+  -webkit-mask:
+    repeating-conic-gradient(#0000 0deg,#000 1deg 20deg,#0000 21deg 36deg),
+    radial-gradient(farthest-side,#0000 calc(100% - 4.5px),#000 calc(100% - 4px));
+  -webkit-mask-composite: destination-in;
+  mask-composite: intersect;
+}

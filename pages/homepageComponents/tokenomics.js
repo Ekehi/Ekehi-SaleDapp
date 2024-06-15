@@ -7,16 +7,14 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 
 const data = {
-    labels: ['Public Sale', 'DEX Liquidity', 'CEX Liquidity', 'Liquidity Provider', 'Team', 'Marketing',  'Staking',  'Contributors', 'Reserve'],
+    labels: ['Community','Public Sale', 'DEX Liquidity', 'CEX Liquidity', 'Team', 'Staking', 'Reserve'],
     datasets: [
         {
             label: '%',
-            data: [40, 15, 10, 5, 5, 7, 5, 3, 10],
+            data: [50, 10, 10, 10, 5, 5, 10],
             backgroundColor: [
-                
-                'rgba(3,8,73)',
-                'rgba(3,101,100)',
-                'rgba(205,179,128)',
+               
+                'rgba(25,179,128)',
                 'rgba(232,221,203)',
                 'rgba(138,155,15)',
                 'rgba(23,177,2)',
@@ -26,9 +24,7 @@ const data = {
             ],
             borderColor: [
                 
-                'rgba(3,8,73)',
-                'rgba(3,101,100)',
-                'rgba(205,179,128)',
+                'rgba(25,179,128)',
                 'rgba(232,221,203)',
                 'rgba(138,155,15)',
                 'rgba(23,177,2)',

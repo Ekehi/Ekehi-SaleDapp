@@ -28,19 +28,21 @@ export default function HomeSection() {
             </a>
             <a
               className='font-bold text-white bg-pink-500 hover:bg-white hover:text-pink-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
-              href='#airdrop'>
-              Join Airdrop
+              href='#presale'>
+              Join Our Presale
             </a>
             {/* <a href="#section4" className="btn btn-border btn-radius">
               Buy Token
             </a> */}
           </div>
 
-          <div className="mt-[100px]">
-            <h4 className="lead text-white pad font-semibold">
-              Presale is <span className="text-red-700 ">Live📢</span>
-            </h4>
+          <div className="mt-[100px] -mb-2">
+            <h4 className="lead text-white pad font-semibold uppercase">
+              Presale is now <span className="text-red-700 ">Live</span>
+              </h4>
+          </div>
 
+          <div className="mt-[100px]">
             <p className="lead text-white pad font-bold text-lg border-2 border-dotted border-yellow-500 central w-max rounded-3xl px-6 py-3 bg-transparent">
 
               ROUND  <span className="text-red-600 font-light text-3xl px-1"> 1 </span> OF <span className="text-red-600 font-light text-3xl pl-1">  5  </span>
@@ -49,11 +51,11 @@ export default function HomeSection() {
 
           <Timer />
           <a
-              className='font-bold text-white   hover:text-yellow-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
-              href='#presale'>
-              BUY EKEHI
-            </a>
-       {/*  <Timer /> */}
+            className='font-bold text-white   hover:text-yellow-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
+            href='#presale'>
+            BUY EKH TOKEN
+          </a>
+          {/*  <Timer /> */}
         </div>
       </section>
       {/* PARALLAX ONE END */}
