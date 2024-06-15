@@ -7,8 +7,6 @@ import {
   faArrowRight
 } from "@fortawesome/free-solid-svg-icons";
 
-
-// Homepage Section2 Section
 export default function Section4() {
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -44,7 +42,7 @@ export default function Section4() {
           </ul>
           <p className='w-1/3 text-white text-center text-sm mt-3'>Send USDT, BNB, ETH, MATIC, ARB, or SOL to the provided wallet address respectively
             Click the "Submit" button and fill the form.</p>
-          <div className='flex flex-row mt-6 items-center'>
+          <div className='flex flex-row mt-2 items-center'>
             <span className='font-mono text-white text-xs ease-linear transition duration-600 bg-gradient-to-b from-pink-700 to-indigo-700 shadow-md  w-max rounded-xl ml-2 px-2 py-1 '>BNB</span>
             <span className='font-mono text-white text-xs ease-linear transition duration-600 bg-gradient-to-b from-pink-700 to-indigo-700 shadow-md  w-max rounded-xl ml-2 px-2 py-1 '>ETHERIUM</span>
             <span className='font-mono text-white text-xs ease-linear transition duration-600 bg-gradient-to-b from-pink-700 to-indigo-700 shadow-md  w-max rounded-xl ml-2 px-2 py-1 '>POLYGON</span>
@@ -56,7 +54,7 @@ export default function Section4() {
               { text: '0xd188d593476d7CD4A7104500131d638a076fc6D4' },
             ]}
           />
-          <div className='flex flex-col items-center'>
+          <div className='flex flex-col mt-4 items-center'>
             <span className='font-mono text-white text-xs bg-gradient-to-b from-pink-700 to-indigo-700 shadow-md  w-max rounded-xl ml-2 px-2 py-1 '>SOLANA</span>
           </div>
           <CopyableText
