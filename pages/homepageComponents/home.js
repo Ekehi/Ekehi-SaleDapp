@@ -20,7 +20,7 @@ export default function HomeSection() {
             data-animation-delay="1.4s"
           >
             <a
-              href="/whitepaper/whitepaper.pdf"
+              href="/whitepaper/Whitepaper v2.0.pdf"
               download={"whitepaper.pdf"}
               className="w-max rounded-3xl ml-2 px-6 py-3 bg-yellow-400 font-bold text-white hover:outline-none outline outline-1 btn-radius nav-link content-popup "
             >
@@ -31,31 +31,19 @@ export default function HomeSection() {
               href='#presale'>
               Join Our Presale
             </a>
-            {/* <a href="#section4" className="btn btn-border btn-radius">
-              Buy Token
-            </a> */}
           </div>
 
-          <div className="mt-[100px] -mb-2">
-            <h4 className="lead text-white pad font-semibold uppercase">
+          <div className="mt-[100px] mb-4">
+            <h4 className="lead text-white pad  font-semibold uppercase">
               Presale is now <span className="text-red-700 ">Live</span>
               </h4>
           </div>
 
-          <div className="mt-[100px]">
-            <p className="lead text-white pad font-bold text-lg border-2 border-dotted border-yellow-500 central w-max rounded-3xl px-6 py-3 bg-transparent">
-
-              ROUND  <span className="text-red-600 font-light text-3xl px-1"> 1 </span> OF <span className="text-red-600 font-light text-3xl pl-1">  5  </span>
-            </p>
-          </div>
-
-          <Timer />
           <a
-            className='font-bold text-white   hover:text-yellow-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
+            className='font-bold text-white mt-3  hover:text-yellow-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
             href='#presale'>
             BUY EKH TOKEN
           </a>
-          {/*  <Timer /> */}
         </div>
       </section>
       {/* PARALLAX ONE END */}
