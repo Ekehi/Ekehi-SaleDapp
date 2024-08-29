@@ -33,11 +33,11 @@ export default function HomeSection() {
             </a> */}
           </div>
 
-          <div className="mt-[100px] mb-4">
+          {/* <div className="mt-[100px] mb-4">
             <h4 className="lead text-white pad  font-semibold uppercase">
               Presale is now <span className="text-red-700 ">Live</span>
               </h4>
-          </div>
+          </div> */}
 
          {/*  <a
             className='font-bold text-white mt-3  hover:text-yellow-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'

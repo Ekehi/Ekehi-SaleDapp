@@ -18,12 +18,12 @@ export default function Menu() {
                 </Navbar.Brand>
                 <div className="flex md:order-2">
                     <Navbar.Toggle className="tcolor order-2" />
-                    <a href="#presale">
+                    {/* <a href="#presale">
                         <Button
                             className="text-white order-1 focus:ring-4 focus:outline-none focus:ring-red-300 rounded-lg font-medium text-sm text-center mr-3 md:mr-0 default-color ">
                             JOIN PRESALE
                         </Button>
-                    </a>
+                    </a> */}
                 </div>
                 <Navbar.Collapse
                     className="flex flex-col p-4 mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 border-yellow-500 bg-gradient-to-b  from-slate-900 to-blue-900">
