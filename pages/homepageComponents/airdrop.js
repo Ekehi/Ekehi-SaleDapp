@@ -26,7 +26,7 @@ export default function Airdrop() {
                             <Typewriter
 
                                 options={{
-                                    strings: ["Join Our Exclusive Airdrop", "Limited Time Airdrop Bonus", "Be Part of Ekehi Community"],
+                                     strings: ["Join Our Exclusive Airdrop", "Limited Time Airdrop Bonus", "Be Part of Ekehi Community"],
                                     autoStart: true,
                                     loop: true,
                                     pauseFor: 6000,
