@@ -18,7 +18,7 @@ export default function Home()
         <HomeSection />
         <About />
         <Section3 />
-        <Section4 />
+        {/* <Section4 /> */}
         <Ecosystem />     
         <Tokenomics />
         <Roadmap />
