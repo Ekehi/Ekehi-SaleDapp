@@ -26,11 +26,11 @@ export default function HomeSection() {
             >
               Whitepaper
             </a>
-            <a
+           {/*  <a
               className='font-bold text-white bg-pink-500 hover:bg-white hover:text-pink-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
               href='#presale'>
               Join Our Presale
-            </a>
+            </a> */}
           </div>
 
           <div className="mt-[100px] mb-4">
@@ -39,11 +39,11 @@ export default function HomeSection() {
               </h4>
           </div>
 
-          <a
+         {/*  <a
             className='font-bold text-white mt-3  hover:text-yellow-500 w-max rounded-3xl ml-2 px-6 py-3 outline outline-1'
             href='#presale'>
             BUY EKH TOKEN
-          </a>
+          </a> */}
         </div>
       </section>
       {/* PARALLAX ONE END */}
