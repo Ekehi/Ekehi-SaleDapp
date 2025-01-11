@@ -64,7 +64,7 @@ export default function Ecosystem() {
                                 <div key={i + 1}
                                     className=" col-lg-4 col-md-6 col-sm-12 ">
                                     <div
-                                        className="box_wrap text-center b-border"
+                                        className="box_wrap text-center"
                                         data-animation="fadeInUp"
                                         data-animation-delay={`0.${i + 6}s`}
                                     >
