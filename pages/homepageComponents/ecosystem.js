@@ -62,7 +62,7 @@ export default function Ecosystem() {
                         <div className="row" >
                             {services.map((service, i) => (
                                 <div key={i + 1}
-                                    className=" col-lg-4 col-md-6 col-sm-12 ">
+                                    className=" col-lg-4 col-md-6 col-sm-12">
                                     <div
                                         className="box_wrap text-center"
                                         data-animation="fadeInUp"
