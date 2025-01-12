@@ -26,7 +26,7 @@ export default function Menu() {
                     </a> */}
                 </div>
                 <Navbar.Collapse
-                    className="flex flex-col p-4 mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 border-yellow-500 bg-gradient-to-b from-slate-900 to-blue-900 md:bg-transparent md:bg-transparent">
+                    className="flex flex-col p-4 mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 border-yellow-500 bg-gradient-to-b from-slate-900 to-blue-900 sm:bg-transparent">
                     <HoverLink href="#home"
                         initialState={true}>
                         Home
