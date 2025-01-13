@@ -53,9 +53,9 @@ export default function Ecosystem() {
                             sustainable ecosystem that supports positive change and empowers users to be a part of the solution.
                         </p>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-3">
                             {services.map((service, i) => (
-                                <div key={i} className="text-center bg-gray-800 p-6 rounded shadow-lg">
+                                <div key={i} className="text-center  p-6 rounded shadow-lg">
                                     <img
                                         src={service.icon}
                                         alt={service.title}
