@@ -7,11 +7,11 @@ ChartJS.register(ArcElement, Tooltip, Legend);
 
 
 const data = {
-    labels: ['Community','Public Sale', 'DEX Liquidity', 'CEX Liquidity', 'Team', 'Staking', 'Reserve'],
+    labels: ['Community','Public Sale', 'Liquidity', 'Team', 'Staking', 'Reserve'],
     datasets: [
         {
             label: '%',
-            data: [50, 10, 10, 10, 5, 5, 10],
+            data: [50, 20, 10, 5, 5, 10],
             backgroundColor: [
                
                 'rgba(25,179,128)',
