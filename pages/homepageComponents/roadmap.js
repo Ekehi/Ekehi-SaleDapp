@@ -66,7 +66,7 @@ export default function Roadmap()
                                         PHASE 4
                                     </time>
                                     <p className="text-white mb-4 text-base font-normal text-left ml-12  dark:text-gray-400">
-                                        <Waiting/> Achieve 10 million active users.<br/>
+                                        <Waiting/> Achieve 10 million active users. <br/>
                                         <Waiting/> Secure RWA partnership for assets backed solutions.<br/>
                                         <Waiting/> Mainnet launch.<br/>
                                     </p>
