@@ -6,13 +6,13 @@ export default function Ecosystem() {
             title: "Ekehi Token",
             discription:
                 "The EKEHI token is the native cryptocurrency of the ecosystem, designed to be a leader in sustainable cryptocurrency. It is environmentally friendly, energy-efficient, and supports global sustainability goals.",
-            icon: "/icons/ekehi-token.png", // Path relative to the public folder
+            icon: "/icons/ekehi-token.png",
         },
         {
             title: "EkehiChain",
             discription:
                 "Ekehichain is a blockchain platform focusing on security, transparency, and efficiency, aiming to revolutionize multiple industries through decentralized solutions.",
-            icon: "/icons/ekehi-chain.png",
+            icon: "/icons/ekehi-chain.svg",
         },
         {
             title: "EkehiSwap",
