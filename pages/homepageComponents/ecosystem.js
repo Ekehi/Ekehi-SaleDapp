@@ -59,7 +59,7 @@ export default function Ecosystem() {
                                     <img
                                         src={service.icon}
                                         alt={service.title}
-                                        className="w-16 h-16 mb-4 mx-auto"
+                                        className="w-25 h-25 mb-4 mx-auto"
                                     />
                                     <h4 className="text-lg font-bold text-yellow-500">{service.title}</h4>
                                     <p className="text-sm text-white mt-2">
