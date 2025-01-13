@@ -53,7 +53,7 @@ export default function Roadmap()
                                     <time className="tcolor text-lg font-semibold  dark:text-white">
                                         PHASE 3
                                     </time>
-                                    <p className="text-white mb-4 text-base font-normal justify-start text-left ml-12 dark:text-gray-400">
+                                    <p className="text-white mb-4 text-base font-normal text-left ml-12  dark:text-gray-400">
                                         <Waiting/> Expand community adoption.
                                         <Waiting/> Partnership with De-Fi projects.
                                         <Waiting/> Continuation of blockchain testnet.
@@ -65,7 +65,7 @@ export default function Roadmap()
                                     <time className="tcolor text-lg font-semibold  dark:text-white">
                                         PHASE 4
                                     </time>
-                                    <p className="text-white mb-4 text-base font-normal justify-start text-left ml-12 dark:text-gray-400">
+                                    <p className="text-white mb-4 text-base font-normal text-left ml-12  dark:text-gray-400">
                                         <Waiting/> Achieve 10 million active users.
                                         <Waiting/> Secure RWA partnership for assets backed solutions.
                                         <Waiting/> Mainnet launch.
