@@ -29,7 +29,7 @@ export default function Section3()
                           Sustainability and environmental management through innovative 
                           blockchain technology and a strong commitment to local governance.
                         </p>
-                        <a href="/whitepaper/Pitch_Deck.pdf"
+                        <a href="/whitepaper/Whitepaper v2.0.pdf"
                             target="_blank"
                             className="bg-gradient-to-b  from-slate-900 to-blue-900 text-white hover:bg-slate-600 active:bg-blue-400 font-bold uppercase text-base px-8 py-3 rounded-[24px] shadow-lg hover:shadow-xl outline-none focus:outline-none  mb-1 ease-linear transition-all duration-150">
                             <span>Download Whitepaper <FontAwesomeIcon icon={faCircleDown} className="ml-2" /></span>

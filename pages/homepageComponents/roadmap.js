@@ -31,9 +31,8 @@ export default function Roadmap()
                                     <LoadingSpinner/> Marketing and Promotions.<br/>
                                     <Waiting/> Listing on Tracking Platforms. <br/>
                                     <Waiting/> Partnership and Collaborations.<br/>
-                                    <Waiting/> Token Generation / Point Conversion.<br/>
+                                    <Waiting/> Token Generation.<br/>
                                     <Waiting/> Listing on CEXs.<br/>
-                                    <Waiting/> Burning Events.<br/>
                                     </p>
                                 </li>
                                 <li className="mb-10 ml-4">
@@ -43,11 +42,10 @@ export default function Roadmap()
                                     </time>
                                     <p className="text-white mb-4 text-base font-normal text-left ml-12  dark:text-gray-400">
                                        <Waiting/> Staking Events. <br/>
-                                       <Waiting/> DEX Building. <br/>
-                                       <Waiting/> DEX Lauching. <br/>
-                                       <Waiting/> Trading Events / DEX Promotions. <br/>
-                                       <Waiting/> BlockChain Testnets. <br/>
-                                       <Waiting/> RWA Tokenization Public Offering. <br/>
+                                       <Waiting/> Launch MVP for Ekehi Network and test initial layer 2 blockchain solution. <br/>
+                                       <Waiting/> Roll out Ekehi Swap with integrated privacy features. <br/>
+                                       <Waiting/> Initiate pilot for RWA tokenization <br/>
+                                       <Waiting/> Trading Events/ DEX promotion. <br/>
                                     </p>
                                 </li>
                                 <li className="mb-10 ml-4">
@@ -56,7 +54,21 @@ export default function Roadmap()
                                         PHASE 3
                                     </time>
                                     <p className="text-white mb-4 text-base font-normal justify-start text-left ml-12 dark:text-gray-400">
-                                    <Waiting/> BlockChain Launch.
+                                    <Waiting/> Expand community adoption.
+                                    <Waiting/> Partnership with De-Fi projects.
+                                    <Waiting/> Continuation of blockchain testnet.
+                                    <Waiting/> RWA tokenization public offering
+                                    </p>
+                                </li>
+                                <li className="mb-10 ml-4">
+                                    <div className="absolute w-3 h-3 default-color rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                                    <time className="tcolor text-lg font-semibold  dark:text-white">
+                                        PHASE 4
+                                    </time>
+                                    <p className="text-white mb-4 text-base font-normal justify-start text-left ml-12 dark:text-gray-400">
+                                    <Waiting/> Achieve 10 million active users.
+                                    <Waiting/> Secure RWA partnership for assets backed solutions.
+                                    <Waiting/> Mainnet launch.
                                     </p>
                                 </li>
                             </ol>
