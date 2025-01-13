@@ -54,10 +54,10 @@ export default function Roadmap()
                                         PHASE 3
                                     </time>
                                     <p className="text-white mb-4 text-base font-normal text-left ml-12  dark:text-gray-400">
-                                        <Waiting/> Expand community adoption.
-                                        <Waiting/> Partnership with De-Fi projects.
-                                        <Waiting/> Continuation of blockchain testnet.
-                                        <Waiting/> RWA tokenization public offering
+                                        <Waiting/> Expand community adoption.<br/>
+                                        <Waiting/> Partnership with De-Fi projects.<br/>
+                                        <Waiting/> Continuation of blockchain testnet.<br/>
+                                        <Waiting/> RWA tokenization public offering. <br/>
                                     </p>
                                 </li>
                                 <li className="mb-10 ml-4">
@@ -66,9 +66,9 @@ export default function Roadmap()
                                         PHASE 4
                                     </time>
                                     <p className="text-white mb-4 text-base font-normal text-left ml-12  dark:text-gray-400">
-                                        <Waiting/> Achieve 10 million active users.
-                                        <Waiting/> Secure RWA partnership for assets backed solutions.
-                                        <Waiting/> Mainnet launch.
+                                        <Waiting/> Achieve 10 million active users.<br/>
+                                        <Waiting/> Secure RWA partnership for assets backed solutions.<br/>
+                                        <Waiting/> Mainnet launch.<br/>
                                     </p>
                                 </li>
                             </ol>
