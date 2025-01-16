@@ -16,7 +16,6 @@ body,html {
   font-weight: 400;
   line-height: 36px;
   overflow-x: auto;
-  width: fit-content;
   scrollbar-width: none;
 }
 
