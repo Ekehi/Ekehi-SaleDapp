@@ -11,7 +11,7 @@ export default function HomeSection() {
   id="home"
   className="mtop flex items-center justify-center h-auto pt-20 pb-16 bg-fixed bg-center bg-cover bg-[url('/images/bg/4.jpg')]"
 >
-  <div className="container mx-auto text-center px-4 sm:px-6 lg:px-8">
+  <div className="container mx-auto text-center mt-[100px] px-4 sm:px-6 lg:px-8">
     <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-white leading-snug">
       <strong className="tcolor">Ekehi:</strong> Redefining Cryptocurrency
       for a <strong className="text-pink-500">Sustainable</strong> and
