@@ -8,7 +8,6 @@
 /*=======================================================================
 [02] NORMALIZATION CSS
 =========================================================================*/
-htm,
 body {
   color: #999999;
   font-family: 'Poppins', sans-serif;
@@ -16,6 +15,12 @@ body {
   font-weight: 400;
   line-height: 36px;
 }
+
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+}
+
 
 ul,
 ol {
@@ -41,7 +46,7 @@ h3 span,
 h4 span,
 h5 span,
 h6 span {
-  color: #ffc112;
+  color: #ffa000;
 }
 
 h1.lead {
@@ -140,7 +145,6 @@ blockquote p {
 
 .tokenomicsDiv {
   height: 30vh;
-  width: 70vw;
   position: relative;
 }
 
@@ -222,4 +226,308 @@ blockquote p {
     letter-spacing: 5.6px;
     line-height: 28px;
   }
+
+  .menu-text-size{
+    font-size: small;
+  }
+}
+
+  .m-auto{
+    margin: auto;
+  }
+
+  .box_wrap {
+    background-color: #121833;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    position: relative;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    transition: all 0.5s ease 0s;
+}
+
+.v_dark {
+  background-color: #0c0e27;
+}
+
+.wrapper{
+  max-width: 960px;
+  margin:0 auto;
+  padding: 20px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box
+}
+
+
+.col-lg-4 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%
+}
+
+.show{
+  display: none;
+}
+
+
+@media (max-width:768px){
+  .col-md-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%
+  }
+
+  .mtop {
+    padding-top: 50px;
+  }
+
+}
+
+
+@media only screen and (max-width:576px) {
+
+.col-sm-12 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%
+}
+
+.pad{
+  padding: 10px;
+}
+}
+
+.default-color{
+  background-color: #ffa000;
+
+}
+
+.tcolor{
+  color: #ffa000;
+}
+
+.textcolor:hover{
+ color: #ffa000;
+}
+
+.b-border{
+  border: solid #ffa000;
+  border-width: 2px 0px 2px 0px;
+  border-radius: 0.5rem;
+}
+
+
+
+/*------------------- BUTTON STYLES --------------*/
+
+.btn_group .btn {
+  display: inline-block;
+}
+
+.btn {
+  height: 45px;
+  line-height: 45px;
+  padding: 0 18px;
+  border: 0 none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  height: 54px;
+  line-height: 54px;
+  padding: 0 25px;
+  position: relative;
+  vertical-align: middle;
+
+}
+
+.btn span {
+  font-size: 20px;
+  height: 38px;
+  line-height: 42px;
+  margin-left: -10px;
+  margin-top: -2px;
+  width: 38px;
+}
+
+.btn_group .btn {
+  margin: 5px 0;
+}
+
+.btn.btn-radius {
+  border-radius: 40px;
+}
+
+.btn + .btn:last-child {
+  margin-left: 10px;
+}
+
+
+.btn-default {
+  background-size: 200% auto;
+  background-image: -webkit-linear-gradient(left, #ffa000 0%, #ffcc67 51%, #ffa000);
+  background-image: linear-gradient(to right, #ffa000 0%, #ffcc67 51%, #ffa000);
+  border: 0;
+  color: #fff;
+  outline: none;
+  z-index: 2;
+  transition: all 0.5s ease 0s;
+}
+
+.btn-default:hover {
+  background-position: right center;
+}
+
+.btn-border {
+  border: solid 2px #ffa000;
+  color: #fff;
+  outline: none;
+  background-color:transparent;
+}
+
+.btn i.fa {
+  font-size: 16px;
+  margin-left: 0;
+  margin-right: 10px;
+  margin-top: -2px;
+  padding: 0;
+}
+
+.btn i {
+  font-size: 30px;
+  line-height: 24px;
+  margin-left: 5px;
+  padding-top: 4px;
+  vertical-align: middle;
+}
+
+.btn_group .btn {
+  display: inline-block;
+}
+
+.btn-group,
+.btn-group-vertical {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle
+}
+
+.central{
+  margin: 20px auto;
+}
+@media only screen and (max-width:576px) {
+
+  .btn {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 18px;
+  }
+  .btn span {
+    font-size: 20px;
+    height: 38px;
+    line-height: 42px;
+    margin-left: -10px;
+    margin-top: -2px;
+    width: 38px;
+  }
+  .btn i {
+    font-size: 26px;
+  }
+  .btn+.btn:last-child {
+    margin-left: 5px;
+  }
+  }
+
+  @media only screen and (max-width: 768px){
+.default-txt:hover {
+    color: #ffa000;
+}
+}
+
+@media only screen and (max-width: 575px){
+.scroll {
+    overflow: auto;
+    max-height: 300px;
+    padding: 2px;
+}
+
+}
+
+@media (min-width: 320px) {
+  .half {
+      width: 50%;
+  }
+  .tc {
+    text-align: center;
+}
+}
+
+.font14{
+  font-size: 0.875rem;
+}
+
+.iscroll {
+  overflow: scroll;
+  padding: 2px;
+}
+
+/*---------------------join presale button------------*/
+
+@media (min-width: 768px) and (max-width: 987px ){
+
+  .hide{
+    display: none;
+  }
+
+  .show{
+    display: block;
+  }
+  
+}
+
+
+/*---------------------Loader------------*/
+
+.custom-loader {
+  display: inline-block;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  padding:3px 1px 3px 3px;
+  background:conic-gradient(#0000 10%,#FFA000) content-box;
+  -webkit-mask:
+    repeating-conic-gradient(#000 0deg,#000 1deg 20deg,#000 21deg 36deg),
+    radial-gradient(farthest-side,#000 calc(100% - 4.5px),#000 calc(100% - 4px));
+  -webkit-mask-composite: destination-in;
+  mask-composite: intersect;
+  animation:s4 1s infinite steps(10);
+}
+@keyframes s4 {to{transform: rotate(1turn)}}
+
+.custom-waiting {
+  display: inline-block;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  padding:3px 1px 3px 3px;
+  background:conic-gradient(#0000 10%,#ffa000) content-box;
+  -webkit-mask:
+    repeating-conic-gradient(#0000 0deg,#000 1deg 20deg,#0000 21deg 36deg),
+    radial-gradient(farthest-side,#0000 calc(100% - 4.5px),#000 calc(100% - 4px));
+  -webkit-mask-composite: destination-in;
+  mask-composite: intersect;
 }
