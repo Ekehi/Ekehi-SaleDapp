@@ -7,7 +7,7 @@ export default function HomeSection() {
   return (
     <>
       {/* PARALLAX ONE START */}
-      <section id="home" className="mtop flex items-center justify-center h-fit pt-60  pb-16 bg-fixed bg-center bg-cover bg-[url('/images/bg/4.jpg')]">
+      <section id="home" className="mtop flex items-center justify-center h-fit min-h-screen bg-fixed bg-center bg-cover bg-[url('/images/bg/4.jpg')]">
         <div className="container mx-auto text-center mt-[100px] md:mt-0 pad">
           <h2 className="lead text-white pad">
             <strong className="tcolor">Ekehi:</strong> Redefining Cryptocurrency
