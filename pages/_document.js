@@ -5,7 +5,7 @@ class WebDocument extends Document
     render()
     {
         return (
-            <Html lang="en-US" className="scroll-smooth" style={width="100vw"}>
+            <Html lang="en-US" className="scroll-smooth">
                 <Head>
                 <meta name="description" content="Ekehi - Redefining Cryptocurrency for a Sustainable and Inclusive Future" />
                 <meta property="og:description" content="The EKEHI token is the native cryptocurrency of the ecosystem, designed to be a leader in sustainable cryptocurrency. It is environmentally friendly, energy-efficient, and supports global sustainability goals." />
@@ -33,7 +33,7 @@ class WebDocument extends Document
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-MG9F62J');`}}></Script>
                 </Head>
-                <body style={width="100vw"}>
+                <body>
                     <noscript dangerouslySetInnerHTML={{
                         __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MG9F62J"
             height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
