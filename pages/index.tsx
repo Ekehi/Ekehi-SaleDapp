@@ -12,7 +12,7 @@ import Airdrop from "./homepageComponents/airdrop.js";
 export default function Home()
 {
   return (
-    <div className="v_dark w-fit ">
+    <div className="v_dark w-[100vw]">
       <Menu />
       <main  className="w-fit">
         <HomeSection />
