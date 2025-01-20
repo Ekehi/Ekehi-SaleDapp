@@ -12,9 +12,9 @@ import Airdrop from "./homepageComponents/airdrop.js";
 export default function Home()
 {
   return (
-    <div className="v_dark w-[100vw]">
+    <div className="v_dark w-[100vw] m-auto p-auto">
       <Menu />
-      <main  className="w-[100vw]">
+      <main  className="w-[100vw] m-auto p-auto">
         <HomeSection />
         <About />
         <Section3 />
