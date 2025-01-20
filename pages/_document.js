@@ -5,7 +5,7 @@ class WebDocument extends Document
     render()
     {
         return (
-            <Html lang="en-US" className="scroll-smooth">
+            <Html lang="en-US" className="scroll-smooth w-fit">
                 <Head>
                 <meta name="description" content="Ekehi - Redefining Cryptocurrency for a Sustainable and Inclusive Future" />
                 <meta property="og:description" content="The EKEHI token is the native cryptocurrency of the ecosystem, designed to be a leader in sustainable cryptocurrency. It is environmentally friendly, energy-efficient, and supports global sustainability goals." />

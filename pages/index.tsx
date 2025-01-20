@@ -14,7 +14,7 @@ export default function Home()
   return (
     <div className="v_dark w-[100vw]">
       <Menu />
-      <main  className="w-fit">
+      <main  className="w-[100vw]">
         <HomeSection />
         <About />
         <Section3 />
