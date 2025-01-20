@@ -26,7 +26,7 @@ export default function Section4() {
     <>
       <section id="presale" className="flex flex-col place-items-center justify-around py-20 h-fit bg-fixed bg-center  bg-cover bg-[url('/images/bg/3.jpeg')]">
         <h2 className="text-white font-bold">Secure Your Tokens Now!</h2>
-        <p className="text-white font-extralight text-justify md:text-center sm:text-center sm:w-1/2 tc half ">We are offering you an exclusive opportunity to be part of this exciting project.</p>
+        <p className="text-white font-extralight text-justify md:text-center sm:text-center sm:w-[100vw] tc half ">We are offering you an exclusive opportunity to be part of this exciting project.</p>
         <p className="text-white">Here's how you can participate in the presale</p>
         <a
           className='font-light text-white  hover:bg-white hover:text-slate-900 w-max rounded-xl ml-2 px-3 py-1 outline outline-1'

@@ -13,7 +13,7 @@ export default function Section3()
             <section id="whitepaper" className="flex place-items-center justify-around pt-20 h-fit bg-fixed bg-center ">
                 <div className="text-center">
                     <div style={{alignItems:"center"}}
-                    className="flex flex-col box-cont h-fit w-fit px-14 mb-10 py-8 shadow-md bg-gradient-to-r rounded-lg justify-evenly">
+                    className="flex flex-col box-cont h-fit px-14 mb-10 py-8 shadow-md bg-gradient-to-r rounded-lg justify-evenly">
                         <h2 className="text-white font-bold">Whitepaper</h2>
                         <h4 className="lead text-white font-bold">
                             <Typewriter

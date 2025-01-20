@@ -14,7 +14,7 @@ export default function Footer()
             <footer id="footer" className=" pt-8">
                 <div className="flex place-items-center justify-left ml-6">
                     <a href="#" className="flex items-center">
-                        <img src="/images/logo.png" className="ml-3 h-10 sm:h-9" alt="Presale Example" />
+                        <img src="/images/logo.png" className="ml-3 h-10 sm:h-9" alt="Preslale" />
                     </a>
                 </div>
                 <div className="grid justify-items-center justify-center grid-flow-row auto-rows-min sm:grid-flow-col  gap-30 py-8 px-6">
