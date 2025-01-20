@@ -9,7 +9,7 @@ export default function Section2() {
     return (
         <>
             {/* PARALLAX TWO START */}
-            <section id="about" className="flex items-center justify-center pt-16 h-fit bg-fixed bg-center bg-cover bg-slate-900">
+            <section id="about" className="flex items-center justify-center pt-16 w-[100vw] h-fit bg-fixed bg-center bg-cover bg-slate-900">
                 <div className="text-center">
                     <div className="box-cont h-fit mt-[10%] px-14 mb-10 py-8 shadow-md bg-gradient-to-r from-slate-900 rounded-lg ">
                         <h4 className="uppercase tcolor font-bold">About Ekehi</h4>

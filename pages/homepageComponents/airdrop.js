@@ -18,9 +18,9 @@ export default function Airdrop() {
 
     return (
         <>
-            <section id="airdrop" className="flex shadow-md place-items-center justify-around h-fit bg-fixed bg-center pt-52 bg-cover bg-[url('/images/bg/1.jpg')]">
+            <section id="airdrop" className="flex shadow-md place-items-center justify-around w-[100vw] h-fit bg-fixed bg-center pt-52 bg-cover bg-[url('/images/bg/1.jpg')]">
                 <div className="text-center " >
-                    <div className=" box-cont h-fit w-fit px-14 mb-10 py-8 shadow-inner bg-gradient-to-r from-slate-900 rounded-lg">
+                    <div className=" box-cont h-fit  px-14 mb-10 py-8 shadow-inner bg-gradient-to-r from-slate-900 rounded-lg">
                         <h2 className="font-bold text-white w-max px-6 py-3 m-auto underline underline-offset-8">Our Airdrop</h2>
                         <h4 className="lead text-white font-semibold">
                             <Typewriter

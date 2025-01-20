@@ -11,7 +11,7 @@ export default function Footer()
 {
     return (
         <>
-            <footer id="footer" className=" pt-8">
+            <footer id="footer" className=" pt-8 w-[100vw]">
                 <div className="flex place-items-center justify-left ml-6">
                     <a href="#" className="flex items-center">
                         <img src="/images/logo.png" className="ml-3 h-10 sm:h-9" alt="Preslale" />
