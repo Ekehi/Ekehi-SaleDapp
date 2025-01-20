@@ -20,7 +20,7 @@ export default function Roadmap()
                                 }}
                             />
                         </h4>
-                        <div className="container mx-auto w-max">
+                        <div className="container mx-auto">
                             <ol className="relative border-l border-gray-200 dark:border-gray-700">
                                 <li className="mb-10 ml-4">
                                     <div className="absolute w-3 h-3 default-color rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
