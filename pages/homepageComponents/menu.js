@@ -5,7 +5,7 @@ export default function Menu() {
 
 
     return (
-        <div className="bg-gradient-to-b from-blue-900 to-blue-900 md:bg-transparent">
+        <div className="bg-gradient-to-b from-blue-900 to-blue-900 md:bg-transparent w-[100vw]">
             {/* Menu START */}
             <Navbar
                 fluid={true}
