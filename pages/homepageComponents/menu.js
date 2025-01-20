@@ -11,7 +11,7 @@ export default function Menu() {
                 fluid={true}
                 rounded={true}
                 style={{ margin: "auto" }}
-                className="px-2 sm:px-4 py-2.5 bg-gradient-to-b  from-blue-900 to-slate-900 fixed w-full z-20 top-0 left-0 border-b  border-slate-900  "
+                className="px-2 sm:px-4 py-2.5 bg-gradient-to-b  from-blue-900 to-slate-900 fixed w-[100vw] z-20 top-0 left-0 border-b  border-slate-900  "
             >
                 <Navbar.Brand href="https://ekehi.network">
                     <img src="/images/logo.png" className="mr-2 sm:h-9" alt="Ekehi Presale" />
