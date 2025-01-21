@@ -14,7 +14,12 @@ module.exports = {
       wide: '.025em',
       wider: '.05em',
       widest: '6.4px',
-    }
+    },
+    extend: {
+      display: {
+        'contents': 'contents',
+      },
+    },
   },
   plugins: [
     require('flowbite/plugin')
