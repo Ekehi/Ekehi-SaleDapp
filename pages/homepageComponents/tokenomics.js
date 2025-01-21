@@ -44,7 +44,7 @@ export default function Tokenomics()
         <>
             <section id="tokenomics" className="flex shadow-md place-items-center justify-around py-20 w-[100vw] h-fit bg-fixed bg-center bg-cover bg-[url('/images/bg/23.ojpg')]">
                 <div className="text-center">
-                    <div className="box-cont h-fit px-14 mb-10 py-8 shadow-md bg-gradient-to-r from-slate-900 rounded-lg">
+                    <div className="box-cont h-fit px-14 mb-10 py-8 shadow-md w-[100vw] bg-gradient-to-r from-slate-900 rounded-lg">
                         <h2 className="text-white font-bold">Tokenomics</h2>
                         <h4 className="lead text-white  font-bold">
                             <Typewriter

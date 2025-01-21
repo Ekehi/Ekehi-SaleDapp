@@ -25,7 +25,7 @@ export default function Section2() {
                         <a href="https://t.me/ekehiOfficial"
                             target="_blank"
                             className="bg-gradient-to-b  from-slate-900 to-blue-900 text-white hover:bg-slate-600 active:bg-blue-400 font-bold uppercase text-base px-8 py-3 rounded-[24px] shadow-lg hover:shadow-xl outline-none focus:outline-none  mb-1 mt-2 ease-linear transition-all duration-150">
-                            <span>Join Our Community <FontAwesomeIcon icon={faTelegram} className="ml-2" /></span>
+                            <span className="inline-block">Join Our Community <FontAwesomeIcon icon={faTelegram} className="ml-2" /></span>
                         </a>
                     </div>
                 </div>
