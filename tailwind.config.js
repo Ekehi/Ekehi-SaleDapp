@@ -19,6 +19,9 @@ module.exports = {
       display: {
         'contents': 'contents',
       },
+      fontSize: {
+        'custom-40': '40px', // Custom font size
+      },
     },
   },
   plugins: [
