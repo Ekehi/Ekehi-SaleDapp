@@ -9,7 +9,7 @@ export default function HomeSection() {
       {/* PARALLAX ONE START */}
       <section id="home" className="mtop flex items-center justify-center h-fit min-h-screen w-[100vw] bg-fixed bg-center bg-cover bg-[url('/images/bg/4.jpg')]">
         <div className="container mx-auto text-center mt-[100px] md:mt-0 pad">
-          <h2 className="lead text-white pad md:text-custom-40 ">
+          <h2 className="lead text-white pad ">
             <strong className="tcolor">Ekehi:</strong> Redefining Cryptocurrency
             for a <strong style={{ color: "#ff67cb", }}>Sustainable</strong> and <strong style={{ color: "#ff67cb" }}>Inclusive</strong> Future
           </h2>
