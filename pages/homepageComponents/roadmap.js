@@ -27,7 +27,7 @@ export default function Roadmap()
                                     <time className="tcolor text-lg font-semibold  dark:text-white">
                                         PHASE 1
                                     </time>
-                                    <p className="text-white mb-4 text-base text-left font-normal dark:text-gray-400 ml-12">
+                                    <p className="text-white mb-4 text-base text-left text-lg font-normal dark:text-gray-400 ml-12">
                                     <LoadingSpinner/> Marketing and Promotions.<br/>
                                     <Waiting/> Listing on Tracking Platforms. <br/>
                                     <Waiting/> Partnership and Collaborations.<br/>
