@@ -20,7 +20,7 @@ export default function Footer()
                 <div className="grid justify-items-center justify-center grid-flow-row auto-rows-min sm:grid-flow-col  gap-30 py-8 px-6">
                     <div className="w-2/3">
                         <h2 className="mb-6 text-lg font-normal uppercase tcolor text-center">About</h2>
-                        <p className="mb-6 text-white sm:text-sm md:text-sm">
+                        <p className="mb-6 text-white smalltext">
                         EKEHI's innovative method offers range of benefits to users, investors, and the world. 
                         For users, the project affords a secure, accessible, and empowering platform for investing and 
                         taking part inside the cryptocurrency environment. For investors, EKEHI gives a sustainable and 

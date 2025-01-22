@@ -536,3 +536,9 @@ blockquote p {
   -webkit-mask-composite: destination-in;
   mask-composite: intersect;
 }
+
+@media (max-width: 640px) {
+  .smalltext {
+      font-size: 14px; 
+  }
+}
