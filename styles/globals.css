@@ -541,4 +541,8 @@ blockquote p {
   .smalltext {
       font-size: 14px; 
   }
+
+  .fullwidth {
+    width:100%;
+  }
 }
