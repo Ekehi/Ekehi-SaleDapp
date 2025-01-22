@@ -42,7 +42,7 @@ export default function Roadmap()
                                     </time>
                                     <p className="text-white mb-4 text-sm font-normal text-left ml-12  dark:text-gray-400">
                                        <Waiting/> Staking Events. <br/>
-                                       <Waiting/> Launch MVP for Ekehi Network and test initial layer 2 blockchain solution. <br/>
+                                       <Waiting/><span className="block">  Launch MVP for Ekehi Network and test initial layer 2 blockchain solution. <br/></span>
                                        <Waiting/> Roll out Ekehi Swap with integrated privacy features. <br/>
                                        <Waiting/> Initiate pilot for RWA tokenization <br/>
                                        <Waiting/> Trading Events/ DEX promotion. <br/>
@@ -54,7 +54,7 @@ export default function Roadmap()
                                         PHASE 3
                                     </time>
                                     <p className="text-white mb-4 text-sm font-normal text-left ml-12  dark:text-gray-400">
-                                        <Waiting> Expand community adoption.<br/> </Waiting>
+                                        <Waiting/> <span> Expand community adoption.<br/></span>
                                         <Waiting/> Partnership with De-Fi projects.<br/>
                                         <Waiting/> Continuation of blockchain testnet.<br/>
                                         <Waiting/> RWA tokenization public offering. <br/>
