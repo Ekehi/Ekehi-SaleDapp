@@ -467,6 +467,7 @@ blockquote p {
     max-height: 400px;
     padding: 5px;
     scrollbar-width: thin;
+    font-size: medium;
 }
 
 }
