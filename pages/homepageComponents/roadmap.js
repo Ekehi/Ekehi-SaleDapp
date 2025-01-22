@@ -27,7 +27,7 @@ export default function Roadmap()
                                     <time className="tcolor text-lg font-semibold  dark:text-white">
                                         PHASE 1
                                     </time>
-                                    <p className="text-white mb-4 text-sm text-left  font-normal dark:text-gray-400 ml-12">
+                                    <p className="text-white mb-4 text-sm text-left  font-normal dark:text-gray-400 ml-4">
                                     <LoadingSpinner/> Marketing and Promotions.<br/>
                                     <Waiting/> Listing on Tracking Platforms. <br/>
                                     <Waiting/> Partnership and Collaborations.<br/>
@@ -40,9 +40,9 @@ export default function Roadmap()
                                     <time className="tcolor text-lg font-semibold  dark:text-white">
                                         PHASE 2
                                     </time>
-                                    <p className="text-white mb-4 text-sm font-normal text-left ml-12  dark:text-gray-400">
+                                    <p className="text-white mb-4 text-sm font-normal text-left ml-4  dark:text-gray-400">
                                        <Waiting/> Staking Events. <br/>
-                                       <Waiting/><span className="block">  Launch MVP for Ekehi Network and test initial layer 2 blockchain solution. <br/></span>
+                                       <Waiting/> Launch MVP for Ekehi Network and test initial layer 2 blockchain solution. <br/>
                                        <Waiting/> Roll out Ekehi Swap with integrated privacy features. <br/>
                                        <Waiting/> Initiate pilot for RWA tokenization <br/>
                                        <Waiting/> Trading Events/ DEX promotion. <br/>
@@ -53,8 +53,8 @@ export default function Roadmap()
                                     <time className="tcolor text-lg font-semibold  dark:text-white">
                                         PHASE 3
                                     </time>
-                                    <p className="text-white mb-4 text-sm font-normal text-left ml-12  dark:text-gray-400">
-                                        <Waiting/> <span> Expand community adoption.<br/></span>
+                                    <p className="text-white mb-4 text-sm font-normal text-left ml-4  dark:text-gray-400">
+                                        <Waiting/> Expand community adoption.<br/>
                                         <Waiting/> Partnership with De-Fi projects.<br/>
                                         <Waiting/> Continuation of blockchain testnet.<br/>
                                         <Waiting/> RWA tokenization public offering. <br/>
@@ -65,7 +65,7 @@ export default function Roadmap()
                                     <time className="tcolor text-lg font-semibold  dark:text-white">
                                         PHASE 4
                                     </time>
-                                    <p className="text-white mb-4 text-sm font-normal text-left ml-12  dark:text-gray-400">
+                                    <p className="text-white mb-4 text-sm font-normal text-left ml-4  dark:text-gray-400">
                                         <Waiting/> Achieve 10 million active users. <br/>
                                         <Waiting/> Secure RWA partnership for assets backed solutions.<br/>
                                         <Waiting/> Mainnet launch.<br/>
