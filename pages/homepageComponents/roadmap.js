@@ -54,7 +54,7 @@ export default function Roadmap()
                                         PHASE 3
                                     </time>
                                     <p className="text-white mb-4 text-sm font-normal text-left ml-12  dark:text-gray-400">
-                                        <Waiting/> Expand community adoption.<br/>
+                                        <Waiting> Expand community adoption.<br/> </Waiting>
                                         <Waiting/> Partnership with De-Fi projects.<br/>
                                         <Waiting/> Continuation of blockchain testnet.<br/>
                                         <Waiting/> RWA tokenization public offering. <br/>
