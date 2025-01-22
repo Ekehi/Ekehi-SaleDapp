@@ -464,8 +464,9 @@ blockquote p {
 @media only screen and (max-width: 575px){
 .scroll {
     overflow: auto;
-    max-height: 300px;
-    padding: 2px;
+    max-height: 400px;
+    padding: 5px;
+    scrollbar-width: thin;
 }
 
 }
