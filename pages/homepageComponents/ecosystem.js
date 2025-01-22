@@ -46,7 +46,7 @@ export default function Ecosystem() {
                 <div className="text-center">
                     <div className="box-cont h-fit px-14 mb-10 py-8 shadow-md from-neutral-900 rounded-lg">
                         <h2 className="tcolor font-bold">Our Self-Sustaining Ecosystem</h2>
-                        <p className="text-white mb-10 text-center m-auto">
+                        <p className="text-white mb-10 text-center m-auto smalltext">
                             The components of the EKEHI ecosystem are designed to promote sustainability
                             and environmental stewardship through their unique features and commitment to
                             making a positive impact. These components work together to create a robust and

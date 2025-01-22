@@ -13,7 +13,7 @@ export default function Section2() {
                 <div className="text-center">
                     <div className="box-cont h-fit mt-[10%] px-14 mb-10 py-8 shadow-md bg-gradient-to-r from-slate-900 rounded-lg ">
                         <h4 className="uppercase tcolor font-bold">About Ekehi</h4>
-                        <p className="lowercase text-white font-small scroll mb-4 ">
+                        <p className="lowercase text-white font-small scroll mb-4 smalltext ">
                             EKEHI, a project symbolized as EKH, is a cryptocurrency project that aims to be more than just a means of financial exchange. It envisions a future where digital transactions are coupled with a focus on community growth, driving financial empowerment for individuals. It's an idea with a bigger mission to make a positive impact not only in the financial realm, but also in the social realm by fostering community growth.
 
 
