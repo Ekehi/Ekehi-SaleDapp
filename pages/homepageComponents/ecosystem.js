@@ -46,12 +46,7 @@ export default function Ecosystem() {
                 <div className="text-center ">
                     <div className="box-cont h-fit px-14 mb-10 py-8 shadow-md from-neutral-900 rounded-lg">
                         <h2 className="tcolor font-bold">Our Self-Sustaining Ecosystem</h2>
-                        <p className="text-white mb-10 text-center m-auto smalltext">
-                            The components of the EKEHI ecosystem are designed to promote sustainability<br />
-                            and environmental stewardship through their unique features and commitment to<br />
-                            making a positive impact. These components work together to create a robust and<br />
-                            sustainable ecosystem that supports positive change and empowers users to be a part of the solution.
-                        </p>
+                        
 
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-3">
                             {services.map((service, i) => (
