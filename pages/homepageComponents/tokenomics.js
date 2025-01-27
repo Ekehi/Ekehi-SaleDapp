@@ -61,7 +61,7 @@ export default function Tokenomics()
                                 
                             />
                         </h4>
-                        <h5 className=" bg-slate-300 w-fit text-black hover:bg-slate-400 font-bold uppercase text-base px-6 py-3 rounded-[24px] shadow-md hover:shadow-lg outline-none focus:outline-none m-auto ease-linear transition-all duration-150">
+                        <h5 className=" bg-slate-300 w-fit text-black hover:bg-slate-400 font-bold uppercase text-base px-6 py-3 rounded-[24px] shadow-md hover:shadow-lg outline-none focus:outline-none m-auto mb-1 ease-linear transition-all duration-150">
                             Tokenomics<br />
                         </h5>
                         <h5 className="uppercase text-red-300 font-bold ">Total supply: 1,000,000,000
