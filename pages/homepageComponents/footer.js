@@ -21,12 +21,12 @@ export default function Footer()
                     <div className="fullwidth">
                         <h2 className="mb-6 text-lg font-normal uppercase tcolor text-center">About</h2>
                         <p className="mb-6 text-white smalltext ">
-                        EKEHI's innovative method offers range of benefits to users, investors, and the world. 
-                        For users, the project affords a secure, accessible, and empowering platform for investing and 
-                        taking part inside the cryptocurrency environment. For investors, EKEHI gives a sustainable and 
-                        socially accountable investment opportunity with lengthy-time period increase potential. 
-                        For the world, the project contributes to positive global impact via its commitment to sustainability 
-                        and social duty.
+                        EKEHI's innovative method offers range of benefits to users, investors,<br />
+                        and the world. For users, the project affords a secure, accessible,<br />
+                        and empowering platform for investing and taking part inside the cryptocurrency environment.<br />
+                        For investors, EKEHI gives a sustainable and socially accountable investment opportunity<br />
+                        with lengthy-time period increase potential. For the world, the project contributes to positive<br />
+                        global impact via its commitment to sustainability and social duty.
                         </p>
                     </div>
                     <div>
