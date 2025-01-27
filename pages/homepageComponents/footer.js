@@ -17,8 +17,8 @@ export default function Footer()
                         <img src="/images/logo.png" className="ml-3 h-10 sm:h-9" alt="Preslale" />
                     </a>
                 </div>
-                <div className="grid justify-items-center justify-center grid-flow-row auto-rows-min   gap-30 py-8 px-6">
-                    <div className="fullwidth">
+                <div className="grid justify-items-center justify-center grid-flow-row auto-rows-min fullwidth  gap-30 py-8 px-6">
+                    <div className="relative m-auto">
                         <h2 className="mb-6 text-lg font-normal uppercase tcolor text-center">About</h2>
                         <p className="mb-6 text-white smalltext text-center ">
                         EKEHI's innovative method offers range of benefits to users, investors,
