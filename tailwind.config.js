@@ -22,6 +22,10 @@ module.exports = {
       fontSize: {
         'custom-40': '40px', // Custom font size
       },
+      boxShadow: {
+        'custom-light': '2px 2px 5px rgba(0, 0, 0, 0.1)',
+        'custom-dark': '4px 4px 20px rgba(0, 0, 0, 0.5)',
+      },
     },
   },
   plugins: [
