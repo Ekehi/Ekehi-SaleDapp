@@ -11,7 +11,7 @@ export default function Section3()
     return (
         <>
             <section id="whitepaper" className="flex place-items-center justify-around pt-20 w-[100vw] h-fit bg-fixed bg-center ">
-                <div className="text-center relative m-auto w-1/2">
+                <div className="text-center ">
                     <div style={{alignItems:"center"}}
                     className="flex flex-col box-cont h-fit px-14 mb-10 py-8 shadow-md bg-gradient-to-r rounded-lg justify-evenly">
                         <h2 className="text-white font-bold">Whitepaper</h2>
