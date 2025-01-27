@@ -10,7 +10,7 @@ export default function Section2() {
         <>
             {/* PARALLAX TWO START */}
             <section id="about" className="flex items-center justify-center pt-16 w-[100vw] h-fit bg-fixed bg-center bg-cover bg-slate-900">
-                <div className="text-center relative m-auto w-1/2"">
+                <div className="text-center relative m-auto w-1/2">
                     <div className="box-cont h-fit w-fit mt-[10%] px-14 mb-10 py-8 shadow-md bg-gradient-to-r from-slate-900 rounded-lg ">
                         <h4 className="uppercase tcolor font-bold">About Ekehi</h4>
                         <p className="lowercase text-white text-center font-small scroll mb-4 smalltext ">

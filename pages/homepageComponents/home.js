@@ -20,7 +20,7 @@ export default function HomeSection() {
             data-animation-delay="1.4s"
           >
             <a
-              href="/whitepaper/Whitepaper v2.0.pdf"
+              href="/whitepaper/Whitepaperv2.0.pdf"
               download={"whitepaper.pdf"}
               className="w-max rounded-3xl ml-2 px-6 py-3 bg-yellow-400 font-bold text-white hover:outline-none outline outline-1 btn-radius nav-link content-popup "
             >
