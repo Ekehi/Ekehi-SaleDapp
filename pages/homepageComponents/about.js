@@ -14,12 +14,8 @@ export default function Section2() {
                     <div className="box-cont h-fit mt-[10%] px-14 mb-10 py-8 shadow-md bg-gradient-to-r from-slate-900 rounded-lg ">
                         <h4 className="uppercase tcolor font-bold">About Ekehi</h4>
                         <p className="lowercase text-white font-small scroll mb-4 smalltext ">
-                            EKEHI, a project symbolized as EKH, is a cryptocurrency project that aims to be more than just a means of financial exchange. It envisions a future where digital transactions are coupled with a focus on community growth, driving financial empowerment for individuals. It's an idea with a bigger mission to make a positive impact not only in the financial realm, but also in the social realm by fostering community growth.
-
-
-                            <br /> The name "EKEHI" itself adds to the project's mystique, hinting at a deeper meaning and significance that sets it apart from other cryptocurrency projects. It's not just a financial tool, but a concept with the potential to create a better future for all.
-                            <br />
-                            EKEHI is a cryptocurrency project with a unique vision - to not only facilitate digital transactions, but also to drive financial empowerment and community growth. This innovative project aims to create a future where financial transactions are intertwined with social impact, creating a positive cycle of growth for both individuals and communities.
+                            EKEHI (EKH) is a cryptocurrency project that goes beyond financial exchange. It aims to empower individuals and foster community growth, creating a positive impact in both financial and social spheres.
+                            <br /> This innovative project envisions a world where digital transactions are linked to social progress, promoting a cycle of growth for individuals and communities alike.
                         </p>
                        
                         <a href="https://t.me/ekehiOfficial"
