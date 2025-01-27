@@ -25,9 +25,9 @@ export default function Section3()
                             />
                         </h4>
                         <p className="text-white mb-10 w-fit text-center mt-6 smalltext">
-                        EKEHI is a transformational cryptocurrency project focused on growth<br />
-                          Sustainability and environmental management through innovative <br />
-                          blockchain technology and a strong commitment to local governance.<br />
+                        EKEHI is a transformational cryptocurrency project focused on growth
+                          Sustainability and environmental management through innovative 
+                          blockchain technology and a strong commitment to local governance.
                         </p>
                         <a href="/whitepaper/Whitepaperv2.0.pdf"
                             target="_blank"

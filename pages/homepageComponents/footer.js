@@ -18,7 +18,7 @@ export default function Footer()
                     </a>
                 </div>
                 <div className="grid justify-items-center justify-center grid-flow-row auto-rows-min fullwidth  gap-30 py-8 px-6">
-                    <div className="relative m-auto w-1/2">
+                    <div className="relative m-auto w-1/2 fullwidth">
                         <h2 className="mb-6 text-lg font-normal uppercase tcolor text-center">About</h2>
                         <p className="mb-6 text-white smalltext text-center ">
                         EKEHI's innovative method offers range of benefits to users, investors,
