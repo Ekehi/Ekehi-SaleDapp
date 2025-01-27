@@ -42,9 +42,9 @@ export default function Ecosystem() {
 
     return (
         <>
-            <section id="ecosystem" className="flex place-items-center justify-around py-20 w-[100vw] h-fit bg-fixed bg-center bg-cover bg-[url('/images/bg/16.jpg')]">
+            <section id="ecosystem" className="flex place-items-center justify-around py-20 w-[100vw] h-fit bg-fixed bg-center bg-cover ">
                 <div className="text-center ">
-                    <div className="box-cont h-fit px-14 mb-10 py-8 shadow-md from-neutral-900 bg-gradient-to-r from-slate-900 rounded-lg">
+                    <div className="box-cont h-fit px-14 mb-10 py-8 shadow-md from-neutral-900  rounded-lg">
                         <h2 className="tcolor font-bold">Our Self-Sustaining Ecosystem</h2>   
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-3">
                             {services.map((service, i) => (
