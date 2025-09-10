@@ -59,22 +59,21 @@ export default function PresaleManager()
             if (this.preSaleDataLocal)
             {
                 return (
-                    <>
-                        <p>Sale Token: {this.saleToken}</p>
-                        <p>startTime: {this.startTime.toLocaleString("default")}</p>
-                        <p>endTime: {this.endTime.toLocaleString("default")}</p>
-                        <p>price: {this.price.toFixed(3)}$ per Praiza</p>
-                        <p>tokensToSell: {new Intl.NumberFormat().format(this.tokensToSell)} Praiza</p>
-                        <p>inSale: {new Intl.NumberFormat().format(this.inSale)} Praiza</p>
-                        <p>tokensSold: {new Intl.NumberFormat().format(this.tokensSold)} Praiza</p>
-                        <p>presaleGoal: {new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(this.presaleGoal)} $</p>
-                        <p>baseDecimals: {this.baseDecimals}</p>
-                        <p>vestingStartTime: {this.vestingStartTime.toLocaleString("default")}</p>
-                        <p>vestingCliff: {this.vestingCliff}</p>
-                        <p>vestingPeriod: {this.vestingPeriod}</p>
-                        <p>enableBuyWithEth: {this.enableBuyWithEth.toString()}</p>
-                        <p>enableBuyWithUsdt: {this.enableBuyWithUsdt.toString()}</p>
-                    </>
+                    <div className="space-y-1 text-sm">
+                        <div className="flex justify-between"><span className="text-slate-400">Sale Token</span><span className="text-white">{this.saleToken}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">Start</span><span className="text-white">{this.startTime.toLocaleString("default")}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">End</span><span className="text-white">{this.endTime.toLocaleString("default")}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">Price</span><span className="text-white">{this.price.toFixed(3)} $</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">For Sale</span><span className="text-white">{new Intl.NumberFormat().format(this.tokensToSell)}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">In Sale</span><span className="text-white">{new Intl.NumberFormat().format(this.inSale)}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">Sold</span><span className="text-white">{new Intl.NumberFormat().format(this.tokensSold)}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">Goal</span><span className="text-white">{new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(this.presaleGoal)}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">Vesting Start</span><span className="text-white">{this.vestingStartTime.toLocaleString("default")}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">Cliff</span><span className="text-white">{this.vestingCliff}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">Period</span><span className="text-white">{this.vestingPeriod}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">Buy with ETH</span><span className="text-white">{this.enableBuyWithEth.toString()}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">Buy with USDT</span><span className="text-white">{this.enableBuyWithUsdt.toString()}</span></div>
+                    </div>
                 )
             }
             else return (<></>);
@@ -106,12 +105,12 @@ export default function PresaleManager()
             if (this.userVestingDataLocal)
             {
                 return (
-                    <>
-                        <p>totalAmount: {new Intl.NumberFormat().format(this.totalAmount)} Praiza</p>
-                        <p>claimedAmount: {new Intl.NumberFormat().format(this.claimedAmount)} Praiza</p>
-                        <p>claimStart: {this.claimStart.toLocaleString("default")}</p>
-                        <p>claimEnd: {this.claimEnd.toLocaleString("default")}</p>
-                    </>
+                    <div className="space-y-1 text-sm">
+                        <div className="flex justify-between"><span className="text-slate-400">Total</span><span className="text-white">{new Intl.NumberFormat().format(this.totalAmount)}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">Claimed</span><span className="text-white">{new Intl.NumberFormat().format(this.claimedAmount)}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">Claim Start</span><span className="text-white">{this.claimStart.toLocaleString("default")}</span></div>
+                        <div className="flex justify-between"><span className="text-slate-400">Claim End</span><span className="text-white">{this.claimEnd.toLocaleString("default")}</span></div>
+                    </div>
                 )
             }
             else
@@ -307,86 +306,81 @@ export default function PresaleManager()
         buyWithUsdt?.()
     }, [waitForTransactionUsdtAllowanceIsSuccess]);
 
+    const isActionDisabled = waitForTransactionIsLoading || usdtAllowanceIsLoading;
+
     const renderContent = () =>
     {
         return (
-            <>
-                <section className="parallaxOne" data-parallax="scroll" data-image-src="images/bg/20.jpg" data-bleed="10">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-4">
-                                <div className="chooseUsContent home_page3">
-                                    <h3 className="magenta normal">Purchase Ekehi Pre-Sale Tokens:</h3>
-                                    <form
-                                        onSubmit={(e) =>
-                                        {
-                                            e.preventDefault();
-                                            if (accountAllowancePublic >= usdtAllowanceHelper)
-                                                buyWithUsdt?.();
-                                            else
-                                                usdtAllowanceWrite?.()
-                                        }}>
-                                        <label for="tokenId">Amount of Ekehi Tokens</label>
-                                        <input
-                                            type="number"
-                                            placeholder="Amount of EKH Tokens"
-                                            className="exchange__textBox"
-                                            value={tokens}
-                                            onChange={(e) => setTokens(e.target.value)}
-                                        />
-                                        <div>USDT equivalent: {usdt.toFixed(2)}</div>
-                                        <button disabled={waitForTransactionIsLoading || usdtAllowanceIsLoading}>
-                                            {
-                                                waitForTransactionIsLoading ? 'Transaction in progress...'
-                                                    : waitForTransactionUsdtAllowanceIsLoading ? 'Awaiting USDT Allowance...'
-                                                        : 'Buy EKH'
-                                            }
-                                        </button>
-                                        {waitForTransactionIsSuccess && (
-                                            <div>
-                                                Successfully Purchased Ekehi Token! Congratulations!
-                                                <div>
-                                                    <a href={`https://bscscan.com/tx/${usdtAllowanceData?.hash}`}>Bscscan</a>
-                                                </div>
-                                            </div>
-                                        )}
-                                        {<>
-                                            <p><b>buyWithUsdtPrepareStatus: </b>{buyWithUsdtPrepareStatus}</p>
-                                            <p><b>accountAllowancePublic: </b>{accountAllowancePublic}</p>
-                                        </>}
-                                        {(usdtAllowanceIsPrepareError || usdtAllowanceError) && (
-                                            <>
-                                                <div><b>USDT Allowance Error:</b> {(usdtAllowancePrepareError || usdtAllowanceError)?.message}</div><br /><br />
-                                            </>
-                                        )}
-                                        {(buyWithUsdtIsPrepareError) && (
-                                            <div><b>buyWithUsdtIsPrepareError</b> {buyWithUsdtPrepareError?.message}</div>
-                                        )}
-                                        {(isBuyWithUsdtError) && (
-                                            <div><b>isBuyWithUsdtError:</b> {buyWithUsdtError?.message}</div>
-                                        )}
-                                        {(accountAllowanceIsError) && (
-                                            <div><b>accountAllowanceIsError:</b> {accountAllowanceError?.message}</div>
-                                        )}
-                                    </form>
-                                </div>
-                            </div>
-                            <div className="col-lg-4">
-                                <div className="chooseUsContent home_page3">
-                                    <h3 className="magenta normal">User Vesting Data:</h3>
-                                    <p>{userVestingParsed}</p>
-                                </div>
-                            </div>
-                            <div className="col-lg-3">
-                                <div className="chooseUsContent home_page3">
-                                    <h3 className="magenta normal">Presale Data:</h3>
-                                    <p>{presaleDataParsed}</p>
-                                </div>
-                            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {/* Purchase form */}
+                <div className="md:col-span-2 rounded-xl border border-slate-800 bg-slate-900/50 p-5">
+                    <h4 className="text-white text-lg font-medium mb-4">Purchase Ekehi Pre-Sale Tokens</h4>
+                    <form
+                        onSubmit={(e) =>
+                        {
+                            e.preventDefault();
+                            if (accountAllowancePublic >= usdtAllowanceHelper)
+                                buyWithUsdt?.();
+                            else
+                                usdtAllowanceWrite?.()
+                        }}>
+                        <label htmlFor="tokenId" className="block text-slate-300 text-sm mb-2">Amount of EKH Tokens</label>
+                        <div className="flex items-center gap-3">
+                            <input
+                                id="tokenId"
+                                type="number"
+                                min="0"
+                                placeholder="Amount of EKH Tokens"
+                                className="w-full rounded-lg bg-slate-800 border border-slate-700 text-white placeholder-slate-400 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                                value={tokens}
+                                onChange={(e) => setTokens(e.target.value)}
+                            />
+                            <button
+                                type="submit"
+                                disabled={isActionDisabled}
+                                className={`rounded-lg px-4 py-2 font-semibold text-white ${isActionDisabled ? 'bg-slate-700 cursor-not-allowed' : 'bg-pink-600 hover:bg-pink-500'} transition`}>
+                                {
+                                    waitForTransactionIsLoading ? 'Processing...'
+                                        : waitForTransactionUsdtAllowanceIsLoading ? 'Awaiting Allowance...'
+                                            : (accountAllowancePublic >= usdtAllowanceHelper ? 'Buy EKH' : 'Approve USDT')
+                                }
+                            </button>
                         </div>
+                        <div className="text-slate-300 text-sm mt-2">USDT equivalent: <span className="text-white font-medium">{usdt.toFixed(2)}</span></div>
+
+                        {/* Inline feedback */}
+                        <div className="mt-3 space-y-2 text-xs">
+                            <div className="text-slate-400"><b>Status:</b> {buyWithUsdtPrepareStatus}</div>
+                            {usdtAllowanceIsPrepareError && <div className="text-red-400"><b>USDT Allowance Error:</b> {usdtAllowancePrepareError?.message}</div>}
+                            {usdtAllowanceError && <div className="text-red-400"><b>USDT Allowance Error:</b> {usdtAllowanceError?.message}</div>}
+                            {buyWithUsdtIsPrepareError && <div className="text-red-400"><b>buyWithUsdtIsPrepareError</b> {buyWithUsdtPrepareError?.message}</div>}
+                            {isBuyWithUsdtError && <div className="text-red-400"><b>isBuyWithUsdtError:</b> {buyWithUsdtError?.message}</div>}
+                            {accountAllowanceIsError && <div className="text-red-400"><b>accountAllowanceIsError:</b> {accountAllowanceError?.message}</div>}
+                        </div>
+
+                        {waitForTransactionIsSuccess && (
+                            <div className="mt-4 rounded-lg border border-green-700 bg-green-900/30 p-3 text-green-300">
+                                Successfully purchased Ekehi Tokens.
+                                <div className="mt-1">
+                                    <a className="underline hover:text-green-200" href={`https://bscscan.com/tx/${usdtAllowanceData?.hash}`}>View on explorer</a>
+                                </div>
+                            </div>
+                        )}
+                    </form>
+                </div>
+
+                {/* Side panels */}
+                <div className="space-y-6">
+                    <div className="rounded-xl border border-slate-800 bg-slate-900/50 p-5">
+                        <h4 className="text-white text-lg font-medium mb-3">User Vesting</h4>
+                        <div className="text-slate-300 text-sm">{userVestingParsed}</div>
                     </div>
-                </section>
-            </>
+                    <div className="rounded-xl border border-slate-800 bg-slate-900/50 p-5">
+                        <h4 className="text-white text-lg font-medium mb-3">Presale Data</h4>
+                        <div className="text-slate-300 text-sm">{presaleDataParsed}</div>
+                    </div>
+                </div>
+            </div>
         );
     };
 
